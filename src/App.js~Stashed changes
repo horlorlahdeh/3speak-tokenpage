@@ -1,0 +1,28 @@
+import React from 'react';
+import 'bootstrap/dist/css/bootstrap.min.css';
+import 'bootstrap/dist/js/bootstrap.min.js';
+import ReactDOM from 'react-dom';
+import ReactWOW from 'react-wow';
+import './assets/styles/App.css';
+
+import MyJumbotron from './components/Jumbotron';
+import WebVersion from './components/WebVersion';
+import SlideOne from './components/SlideOne';
+import SlideTwo from './components/SlideTwo';
+import SlideThree from './components/SlideThree';
+import SlideFour from './components/SlideFour';
+
+function App() {
+  return (
+    <div className="App">
+        <MyJumbotron />
+        <WebVersion />
+        <SlideOne />
+        {/* <SlideTwo /> */}
+        <SlideThree />
+        <SlideFour />
+    </div>
+  );
+}
+
+export default App;

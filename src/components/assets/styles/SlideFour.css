@@ -1,0 +1,47 @@
+.Slide-Four-Wrapper {
+    background: url('../images/long-bg.png');
+    background-repeat: no-repeat;
+    background-position: left;
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: relative;
+}
+/* .bg-div {
+    position: absolute;
+    left: 0;
+    top: 0;
+    opacity: 0.05;
+    width: 100%;
+    height: 100%;
+    background: url('../images/long-bg.png');
+    background-repeat: no-repeat;
+    background-position: 0;
+} */
+.eco-image {
+    margin-top: -100px;
+}
+.eco-card {
+    background: #fff;
+    padding: 25px;
+    box-shadow: 0 10px 55px 5px rgba(137, 172, 255, 0.178);
+    transition: all 0.8s ease-in-out;
+    -webkit-transition-: all 0.8s ease-in-out;
+    -o-: all 0.8s ease-in-out;
+    -moz-: all 0.8s ease-in-out;
+}
+.eco-card:hover {
+    transform: translate3d(0,-20px,0);
+    box-shadow: 0 10px 55px 5px rgba(137, 172, 255, 0.479);
+    cursor: pointer;
+}
+.eco-title-desc {
+    font-size: 18px;
+}
+.eco-desc {
+    color: #716c80;
+    font-size: 14px;
+    margin: 0;
+}

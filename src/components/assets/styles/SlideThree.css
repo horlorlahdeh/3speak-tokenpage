@@ -1,0 +1,29 @@
+.Slide-Three-Wrapper {
+  height: 100vh;
+  z-index: -111;
+}
+.token-utitlity-row {
+  margin-bottom: 30px !important;
+  z-index: -111;
+}
+.tokenomics-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 15px 10px;
+  transition: all 0.5s ease-in-out;
+  box-shadow: 0 10px 55px 5px rgba(137, 173, 255, 0.25);
+}
+.tokenomics-card:hover {
+  cursor: pointer;
+  transform: translate3d(0, -20px, 0);
+  box-shadow: 0 10px 55px 5px rgba(137, 173, 255, 0.35);
+}
+.tokenomics-desc {
+  font-size: 15px;
+}
+.tokenomics-card-wait {
+  animation-delay: 1s;
+  animation-duration: 1.5s;
+}

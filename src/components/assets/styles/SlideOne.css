@@ -1,0 +1,107 @@
+.Slide-One-Wrapper {
+    /* background: url('../images/wavy-bg.jpg')!important; */
+    background-position: center 0;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    position: relative;
+}
+.bg-div {
+    position: absolute;
+    right: 0;
+    top: 50%;
+    opacity: 0.05;
+    width: 50%;
+    z-index: -1;
+    height: 100%;
+    background: url('../images/web-3.0.png');
+    background-repeat: no-repeat;
+    background-position: right;
+}
+.bg-div2 {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    opacity: 0.05;
+    width: 50%;
+    height: 100%;
+    background: url('../images/web-3.0.png');
+    background-repeat: no-repeat;
+    background-position: right;
+    z-index: -1;
+}
+.choose-us-wrapper {
+  padding-top: 30px;
+  transition: all 0.8s ease-in-out;
+  animation-delay: 2s;
+  animation-duration: 2s;
+}
+.choose-us-item {
+  position: relative;
+  padding-bottom: 4px;
+  padding-left: 60px;
+}
+.choose-us-item .icon-wrapper {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.FontAwesomeIcon {
+  font-size: 35px;
+  color: #129cf3;
+  transition: all 1s;
+  -webkit-transition: all 1s;
+  -o-transition: all 1s;
+  -moz-transition: all 1s;
+}
+
+.choose-us-item h3 {
+  color: #343434;
+  text-transform: uppercase;
+  font-size: 18px;
+  font-weight: 400;
+  margin-bottom: 5;
+}
+
+.choose-us-item p {
+  color: #727272;
+  font-size: 15px !important;
+  line-height: 1.5rem;
+}
+.Censorship-Image-Wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+}
+.Censorship-Image {
+  width: 110%;
+  transition: all 0.8s ease-in-out;
+  animation-delay: 2s;
+  animation-duration: 2s;
+  border-radius: 50%;
+}
+.first {
+    animation-delay: 0.5s;
+}
+.second {
+    animation-delay: 1s;
+}
+.third {
+    animation-delay: 1.5s;
+}
+.fourth {
+    animation-delay: 2s;
+}
+.Censorship-Image:hover {
+  width: 105%;
+  animation-name: slideInLeft;
+  visibility: visible;
+}
+.Slide-One-Wrapper:hover .Censorship-Image {
+    transform: translate3d(0, -20px, 0);
+}
+.SlideOne {
+  animation-delay: 0.3s;
+  animation-duration: 1s;
+}

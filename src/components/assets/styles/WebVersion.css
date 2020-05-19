@@ -1,0 +1,51 @@
+.WebVersion-Wrapper {
+    padding-bottom: 90px;
+    /* margin-bottom: 80px; */
+    height: auto;
+    position: relative;
+}
+.WebVersion {
+    animation-delay: 2s;
+    animation-duration: 1.5s;
+}
+.bg-div {
+    position: absolute;
+    right: 0;
+    top: 50%;
+    opacity: 0.05;
+    width: 50%;
+    z-index: -1;
+    height: 100%;
+    background: url('../images/web-3.0.png');
+    background-repeat: no-repeat;
+    background-position: right;
+}
+.bg-div2 {
+    position: absolute;
+    left: 0;
+    bottom: 50%;
+    opacity: 0.05;
+    width: 50%;
+    height: 100%;
+    background: url('../images/web-3.0.png');
+    background-repeat: no-repeat;
+    background-position: right;
+    z-index: -1;
+}
+.entire-row {
+    animation-delay: 0.3s;
+    animation-duration: 1.5s;
+    visibility: visible;
+}
+.own-card .account-img {
+    animation-delay: 0.5s;
+    animation-duration: 1s;
+}
+.own-card .community-img {
+    animation-delay: 1.5s;
+    animation-duration: 1s;
+}
+.own-card .assets-img {
+    animation-delay: 1s;
+    animation-duration: 1s;
+}

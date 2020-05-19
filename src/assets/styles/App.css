@@ -1,0 +1,24 @@
+.Slide-Header {
+    margin: 90px 0 50px;
+}
+
+.Slide-Title {
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 900;
+    font-size: 30px;
+    line-height: 37px;
+    position: relative;
+}
+.Slide-Title::after {
+    content: "";
+    position: absolute;
+    bottom: -16px;
+    left: 45%;
+    width: 70px; 
+    height: 2px;
+    background-color: #129CF3;
+}
+.Slide-Title-Desc {
+    margin: 45px 0 10px;
+}
