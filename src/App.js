@@ -18,7 +18,7 @@ function App() {
       <MyJumbotron />
       <WebVersion />
       <SlideOne />
-      {/* <SlideTwo /> */}
+      <SlideTwo />
       <SlideThree />
       <SlideFour />
     </div>
