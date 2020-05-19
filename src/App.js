@@ -1,24 +1,26 @@
 import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import 'bootstrap/dist/css/bootstrap.min.css';
+import 'bootstrap/dist/js/bootstrap.min.js';
+import ReactDOM from 'react-dom';
+import ReactWOW from 'react-wow';
+import './assets/styles/App.css';
+
+import MyJumbotron from './components/Jumbotron';
+import WebVersion from './components/WebVersion';
+import SlideOne from './components/SlideOne';
+import SlideTwo from './components/SlideTwo';
+import SlideThree from './components/SlideThree';
+import SlideFour from './components/SlideFour';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <MyJumbotron />
+      <WebVersion />
+      <SlideOne />
+      {/* <SlideTwo /> */}
+      <SlideThree />
+      <SlideFour />
     </div>
   );
 }
