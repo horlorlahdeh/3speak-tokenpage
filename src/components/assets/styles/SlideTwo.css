@@ -1,0 +1,16 @@
+/* .slick-grid {
+    display: flex;
+} */
+
+.slick-card-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.each-slide {
+    background-color: #9ac3ed ;
+    border-radius: 3px;
+    overflow: hidden;
+    height: 600px;
+}

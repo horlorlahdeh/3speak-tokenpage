@@ -1,0 +1,36 @@
+.Get-Started-Wrapper {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 50vh !important;
+  /* margin-bottom: 50px; */
+}
+.background {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background: url('../images//getstarted.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  /* background-position: center 20; */
+  opacity: 0.4;
+  height: 100%;
+  width: 100%;
+}
+.start-now {
+  background: #e32334;
+  color: #fff;
+  font-size: 18px;
+  font-weight: bold;
+  padding: 10px 18px;
+  border-radius: 3px;
+  transition: 1s all ease-in-out;
+}
+.start-now:hover {
+  text-decoration: none;
+  color: #e32334;
+  border: 1px solid #e32334;
+  background: transparent;
+}

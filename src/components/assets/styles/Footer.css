@@ -1,0 +1,15 @@
+.Footer {
+    background: #F4A7AE;
+  display: flex;
+  justify-content: center;
+}
+.footer-icons {
+  display: flex!important;
+}
+.icon-item {
+  align-self: center;
+  list-style: none;
+}
+.social-img {
+    padding: 6px;
+}

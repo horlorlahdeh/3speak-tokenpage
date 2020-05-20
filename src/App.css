@@ -17,8 +17,13 @@
     left: 45%;
     width: 70px; 
     height: 2px;
-    background-color: #129CF3;
+    background-color: rgba(18, 157, 243, 0.329);
 }
 .Slide-Title-Desc {
     margin: 45px 0 10px;
+}
+.divider {
+    margin-top: 0!important;
+    margin-bottom: 0!important;
+    border-top: 0!important;
 }
