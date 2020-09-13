@@ -2,9 +2,7 @@ import React, { Component } from 'react';
 // import ReactDOM from 'react-dom';
 import ReactWOW from 'react-wow';
 
-import './assets/styles/WebVersion.css';
-
-export class WebVersion extends Component {
+class DecentralizedStorage extends Component {
   render() {
     return (
       <div className='WebVersion-Wrapper'>
@@ -16,12 +14,11 @@ export class WebVersion extends Component {
               <div className='row'>
                 <div className='col-md-10 offset-md-1'>
                   <div className='Slide-Header'>
-                    <h2 className='Slide-Title'>WELCOME TO 3SPEAK</h2>
+                    <h2 className='Slide-Title'>DECENTRALIZED STORAGE NODES</h2>
                     <p className='Slide-Title-Desc text-center'>
-                      3Speak provides the ability to any video platform or content
-                      creator to store video content in a decentralised back up
-                      IPFS / Torrent network while rewarding value providers
-                      with the SPEAK token.
+                      With 3Speak videos are stored in such a manner that
+                      protects content creators such as Vloggers from bad actors
+                      and censorship.
                     </p>
                   </div>
                 </div>
@@ -38,16 +35,20 @@ export class WebVersion extends Component {
                     <ReactWOW animation='jello'>
                       <img
                         className='account-img'
-                        src='https://img.icons8.com/bubbles/100/000000/private-account-male.png'
-                        alt='Account Icon'
+                        src='https://img.icons8.com/bubbles/100/000000/man-in-red-shirt-messaging.png'
+                        alt='free-speech'
                       />
                     </ReactWOW>
                   </div>
                   <div className='own-card-title'>
-                    <h4>Own your account</h4>
+                    <h4>Free Speech</h4>
                   </div>
                   <div className='own-card-body'>
-                    <p>Own your Account without any fear of censorship</p>
+                    <p>
+                      We have guaranteed free speech for our content creators,
+                      since it will be impossible to remove videos from the
+                      network that the community itself is storing
+                    </p>
                   </div>
                 </div>
               </div>
@@ -57,16 +58,20 @@ export class WebVersion extends Component {
                     <ReactWOW animation='pulse'>
                       <img
                         className='community-img'
-                        src='https://img.icons8.com/bubbles/100/000000/groups.png'
-                        alt='Community Icon'
+                        src='https://img.icons8.com/bubbles/100/000000/fraud.png'
+                        alt='Censor'
                       />
                     </ReactWOW>
                   </div>
                   <div className='own-card-title'>
-                    <h4>Own your Storage</h4>
+                    <h4>Censorship Resistant</h4>
                   </div>
                   <div className='own-card-body'>
-                    <p>Own your own decentralized without any form of central control</p>
+                    <p>
+                      A separate desktop app that stores the videos every time a
+                      user clicks play so that the videos are backed up far and
+                      wide making them harder to censor
+                    </p>
                   </div>
                 </div>
               </div>
@@ -77,16 +82,20 @@ export class WebVersion extends Component {
                       <img
                         className='assets-img'
                         width='100'
-                        src='https://img.icons8.com/bubbles/100/000000/bank.png'
-                        alt='Digital Assets'
+                        src='https://img.icons8.com/bubbles/100/000000/bullish.png'
+                        alt='Scale'
                       />
                     </ReactWOW>
                   </div>
                   <div className='own-card-title'>
-                    <h4>Own your Token/Community</h4>
+                    <h4>Scalable Backend</h4>
                   </div>
                   <div className='own-card-body'>
-                    <p>Own independent communitiees powered by your custom tokens</p>
+                    <p>
+                      Our Communities are build in such a manner that any
+                      external video platform can plug in to contribute to the
+                      network and earn tokens.{' '}
+                    </p>
                   </div>
                 </div>
               </div>
@@ -98,4 +107,4 @@ export class WebVersion extends Component {
   }
 }
 
-export default WebVersion;
+export default DecentralizedStorage;

@@ -1,9 +1,9 @@
 import React, { Component } from "react";
 import { Button, Jumbotron } from "react-bootstrap";
-import JumbotronBg from "./assets/images/jumbotron-bg.jpg";
+// import JumbotronBg from "./assets/images/jumbotron-bg.jpg";
 import SpeakLogo from "./assets/images/3S_logo.png";
 import "./assets/styles/Jumbotron.css";
-import ReactDOM from "react-dom";
+// import ReactDOM from "react-dom";
 import ReactWOW from "react-wow";
 
 export class MyJumbotron extends Component {

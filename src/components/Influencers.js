@@ -32,7 +32,7 @@ export class Influencers extends Component {
                   <div className='customer-svg'>
                     <img
                       className='cus-img-bckgrd1'
-                      src='https://img.icons8.com/color/96/000000/user-male-circle.png'
+                      src='https://img.icons8.com/color/96/000000/user-male-circle.png' alt='user male'
                     />
                   </div>
                   <p className='cus-p'>
@@ -48,7 +48,7 @@ export class Influencers extends Component {
                   <div className='customer-svg'>
                     <img
                       className='cus-img-bckgrd2'
-                      src='https://img.icons8.com/color/96/000000/user-male-circle.png'
+                      src='https://img.icons8.com/color/96/000000/user-male-circle.png' alt='user male'
                     />
                   </div>
                   <p className='cus-p'>
@@ -63,7 +63,7 @@ export class Influencers extends Component {
                 <div className='customer-svg'>
                   <img
                     className='cus-img-bckgrd3'
-                    src='https://img.icons8.com/color/96/000000/user-male-circle.png'
+                    src='https://img.icons8.com/color/96/000000/user-male-circle.png' alt='user male'
                   />
                 </div>
                 <div>
@@ -83,7 +83,7 @@ export class Influencers extends Component {
                 <div className='customer-svg'>
                   <img
                     className='cus-img-bckgrd4'
-                    src='https://img.icons8.com/color/96/000000/user-male-circle.png'
+                    src='https://img.icons8.com/color/96/000000/user-male-circle.png' alt='user male'
                   />
                 </div>
                 <div>

@@ -1,10 +1,9 @@
 import React, { Component } from 'react';
 // import ReactDOM from 'react-dom';
 import ReactWOW from 'react-wow';
+import './assets/styles/TokenInflation.css';
 
-import './assets/styles/WebVersion.css';
-
-export class WebVersion extends Component {
+class TokenInflation extends Component {
   render() {
     return (
       <div className='WebVersion-Wrapper'>
@@ -16,12 +15,12 @@ export class WebVersion extends Component {
               <div className='row'>
                 <div className='col-md-10 offset-md-1'>
                   <div className='Slide-Header'>
-                    <h2 className='Slide-Title'>WELCOME TO 3SPEAK</h2>
+                    <h2 className='Slide-Title'>TOKEN INFLATION</h2>
                     <p className='Slide-Title-Desc text-center'>
-                      3Speak provides the ability to any video platform or content
-                      creator to store video content in a decentralised back up
-                      IPFS / Torrent network while rewarding value providers
-                      with the SPEAK token.
+                      3Speak provides the ability to any video platform or
+                      content creator to store video content in a decentralised
+                      back up IPFS / Torrent network while rewarding value
+                      providers with the SPEAK token.
                     </p>
                   </div>
                 </div>
@@ -32,8 +31,8 @@ export class WebVersion extends Component {
         <div className='container'>
           <ReactWOW animation='slideInUp'>
             <div className='row entire-row' data-wow-offset='100000'>
-              <div className='col-md-4'>
-                <div className='own-card text-center'>
+              <div className='col-md-3'>
+                <div className='token-inflation-card own-card'>
                   <div className='own-card-icon'>
                     <ReactWOW animation='jello'>
                       <img
@@ -44,15 +43,15 @@ export class WebVersion extends Component {
                     </ReactWOW>
                   </div>
                   <div className='own-card-title'>
-                    <h4>Own your account</h4>
+                    <h4>Video Storage Nodes</h4>
                   </div>
-                  <div className='own-card-body'>
-                    <p>Own your Account without any fear of censorship</p>
+                  <div className='token-inflation-card-body'>
+                    <p>All individuals running a storage node in the decentralized system will get a share of the token distribution</p>
                   </div>
                 </div>
               </div>
-              <div className='col-md-4'>
-                <div className='own-card text-center'>
+              <div className='col-md-3'>
+                            <div className='token-inflation-card token-inflation-card-2 own-card'>
                   <div className='own-card-icon'>
                     <ReactWOW animation='pulse'>
                       <img
@@ -63,15 +62,39 @@ export class WebVersion extends Component {
                     </ReactWOW>
                   </div>
                   <div className='own-card-title'>
-                    <h4>Own your Storage</h4>
+                    <h4>Independent Video Platforms</h4>
                   </div>
-                  <div className='own-card-body'>
-                    <p>Own your own decentralized without any form of central control</p>
+                  <div className='token-inflation-card-body'>
+                    <p>
+                      All independent video platforms like 3Speak will have a share of token distribution
+                    </p>
                   </div>
                 </div>
               </div>
-              <div className='col-md-4'>
-                <div className='own-card text-center'>
+              <div className='col-md-3'>
+                            <div className='token-inflation-card token-inflation-card-3 own-card'>
+                  <div className='own-card-icon'>
+                    <ReactWOW animation='jello'>
+                      <img
+                        className='assets-img'
+                        width='100'
+                        src='https://img.icons8.com/bubbles/100/000000/bank.png'
+                        alt='Digital Assets'
+                      />
+                    </ReactWOW>
+                  </div>
+                  <div className='own-card-title'>
+                    <h4>Individual Local Storage</h4>
+                  </div>
+                  <div className='token-inflation-card-body'>
+                    <p>
+                      Users storing data locally using their desktop application will also earn some token from distribution.
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div className='col-md-3'>
+                <div className='token-inflation-card token-inflation-card-4 own-card'>
                   <div className='own-card-icon'>
                     <ReactWOW animation='jello'>
                       <img
@@ -85,8 +108,10 @@ export class WebVersion extends Component {
                   <div className='own-card-title'>
                     <h4>Own your Token/Community</h4>
                   </div>
-                  <div className='own-card-body'>
-                    <p>Own independent communitiees powered by your custom tokens</p>
+                  <div className='token-inflation-card-body'>
+                    <p>
+                      Own independent communitiees powered by your custom tokens
+                    </p>
                   </div>
                 </div>
               </div>
@@ -98,4 +123,4 @@ export class WebVersion extends Component {
   }
 }
 
-export default WebVersion;
+export default TokenInflation;

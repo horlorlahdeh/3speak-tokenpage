@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import ReactDOM from "react-dom";
+// import ReactDOM from "react-dom";
 import ReactWOW from "react-wow";
 
 import "./assets/styles/SlideThree.css";
@@ -36,7 +36,7 @@ export class SlideThree extends Component {
                     <img
                       className="tokenomics-img"
                       src="https://img.icons8.com/color/96/000000/wallet.png"
-                      alt="Money Image"
+                      alt="Money"
                     />
                     <h6 className="tokenomics-header">
                       STAKE BASED VOTING RIGHTS
@@ -54,7 +54,7 @@ export class SlideThree extends Component {
                     <img
                       className="tokenomics-img"
                       src="https://img.icons8.com/color/96/000000/gift.png"
-                      alt="Tipping Image"
+                      alt="Tipping"
                     />
                     <h6 className="tokenomics-header">IMMUTABLE TIPPINGS</h6>
                     <p className="tokenomics-desc text-center">
@@ -70,7 +70,7 @@ export class SlideThree extends Component {
                     <img
                       className="tokenomics-img"
                       src="https://img.icons8.com/color/96/000000/key-exchange.png"
-                      alt="Money Image"
+                      alt="Money"
                     />
                     <h6 className="tokenomics-header">DELEGATE TOKENS</h6>
                     <p className="tokenomics-desc text-center">
@@ -88,7 +88,7 @@ export class SlideThree extends Component {
                     <img
                       className="tokenomics-img"
                       src="https://img.icons8.com/color/96/000000/player-change.png"
-                      alt="Money Image"
+                      alt="Money"
                     />
                     <h6 className="tokenomics-header">ASSIGN OWNERSHIP</h6>
                     <p className="tokenomics-desc text-center">
@@ -104,7 +104,7 @@ export class SlideThree extends Component {
                     <img
                       className="tokenomics-img"
                       src="https://img.icons8.com/color/96/000000/commercial.png"
-                      alt="Tipping Image"
+                      alt="Tipping"
                     />
                     <h6 className="tokenomics-header">MARKETING</h6>
                     <p className="tokenomics-desc text-center">
@@ -120,7 +120,7 @@ export class SlideThree extends Component {
                     <img
                       className="tokenomics-img"
                       src="https://img.icons8.com/color/96/000000/card-security.png"
-                      alt="Money Image"
+                      alt="Money"
                     />
                     <h6 className="tokenomics-header">SUBSCRIPTIONS</h6>
                     <p className="tokenomics-desc text-center">

@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import ReactDOM from 'react-dom';
+// import ReactDOM from 'react-dom';
 import ReactWOW from 'react-wow';
 import Slider from 'react-slick';
 import 'slick-carousel/slick/slick.css';
@@ -49,7 +49,7 @@ export class SlideTwo extends Component {
                   >
                     <img
                       className='card-img'
-                      src='https://img.icons8.com/color/96/000000/workstation.png'
+                      src='https://img.icons8.com/color/96/000000/workstation.png' alt='workstation'
                       style={{
                         marginTop: 40,
                         maxWidth: '96px',
@@ -81,7 +81,7 @@ export class SlideTwo extends Component {
                   >
                     <img
                       className='card-img'
-                      src='https://img.icons8.com/color/96/000000/private.png'
+                      src='https://img.icons8.com/color/96/000000/private.png' alt='private'
                       style={{
                         marginTop: 40,
                         maxWidth: '96px',
@@ -113,7 +113,7 @@ export class SlideTwo extends Component {
                   >
                     <img
                       className='card-img'
-                      src='https://img.icons8.com/color/96/000000/hdtv.png'
+                      src='https://img.icons8.com/color/96/000000/hdtv.png' alt='hdtv'
                       style={{
                         marginTop: 40,
                         maxWidth: '96px',

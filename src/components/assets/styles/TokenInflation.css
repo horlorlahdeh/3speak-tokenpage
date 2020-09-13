@@ -1,0 +1,33 @@
+.token-inflation-card {
+  border-radius: 3px;
+  display: flex;
+  flex-wrap: wrap;
+  padding: 24px 24px 48px;
+  transition: all 0.2s ease-in-out;
+  background-color: #172b4d;
+  color: #fff;
+  cursor: pointer;
+  transition: all 0.8s ease-in-out;
+  -webkit-transition-: all 0.8s ease-in-out;
+  -o-: all 0.8s ease-in-out;
+  -moz-: all 0.8s ease-in-out;
+}
+.token-inflation-card:hover {
+  transform: translate3d(0, -20px, 0);
+}
+.token-inflation-card-2 {
+  background-color: #e32334 !important;
+}
+.token-inflation-card-3 {
+  background-color: #6bc5d7 !important;
+}
+.token-inflation-card-4 {
+  background-color: #88ae45 !important;
+}
+
+.token-inflation-card p {
+  color: #fff !important;
+}
+.own-card-title {
+  margin-bottom: 20px;
+}
