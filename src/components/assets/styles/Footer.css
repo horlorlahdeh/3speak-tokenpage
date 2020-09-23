@@ -1,7 +1,5 @@
 .Footer {
     background: #F4A7AE;
-  display: flex;
-  justify-content: center;
 }
 .footer-icons {
   display: flex!important;

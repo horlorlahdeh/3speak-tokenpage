@@ -37,7 +37,7 @@ class TokenInflation extends Component {
                     <ReactWOW animation='jello'>
                       <img
                         className='account-img'
-                        src='https://img.icons8.com/bubbles/100/000000/private-account-male.png'
+                        src='https://img.icons8.com/bubbles/100/000000/stack.png'
                         alt='Account Icon'
                       />
                     </ReactWOW>
@@ -46,17 +46,21 @@ class TokenInflation extends Component {
                     <h4>Video Storage Nodes</h4>
                   </div>
                   <div className='token-inflation-card-body'>
-                    <p>All individuals running a storage node in the decentralized system will get a share of the token distribution</p>
+                    <p>
+                      All individuals running a storage node in the
+                      decentralized system will get a share of the token
+                      distribution
+                    </p>
                   </div>
                 </div>
               </div>
               <div className='col-md-3'>
-                            <div className='token-inflation-card token-inflation-card-2 own-card'>
+                <div className='token-inflation-card token-inflation-card-2 own-card'>
                   <div className='own-card-icon'>
                     <ReactWOW animation='pulse'>
                       <img
                         className='community-img'
-                        src='https://img.icons8.com/bubbles/100/000000/groups.png'
+                        src='https://img.icons8.com/bubbles/100/000000/api.png'
                         alt='Community Icon'
                       />
                     </ReactWOW>
@@ -66,19 +70,20 @@ class TokenInflation extends Component {
                   </div>
                   <div className='token-inflation-card-body'>
                     <p>
-                      All independent video platforms like 3Speak will have a share of token distribution
+                      All independent video platforms like 3Speak will have a
+                      share of token distribution
                     </p>
                   </div>
                 </div>
               </div>
               <div className='col-md-3'>
-                            <div className='token-inflation-card token-inflation-card-3 own-card'>
+                <div className='token-inflation-card token-inflation-card-3 own-card'>
                   <div className='own-card-icon'>
                     <ReactWOW animation='jello'>
                       <img
                         className='assets-img'
                         width='100'
-                        src='https://img.icons8.com/bubbles/100/000000/bank.png'
+                        src='https://img.icons8.com/bubbles/100/000000/safe.png'
                         alt='Digital Assets'
                       />
                     </ReactWOW>
@@ -88,7 +93,8 @@ class TokenInflation extends Component {
                   </div>
                   <div className='token-inflation-card-body'>
                     <p>
-                      Users storing data locally using their desktop application will also earn some token from distribution.
+                      Users storing data locally using their desktop application
+                      will also earn some token from distribution.
                     </p>
                   </div>
                 </div>
@@ -100,17 +106,19 @@ class TokenInflation extends Component {
                       <img
                         className='assets-img'
                         width='100'
-                        src='https://img.icons8.com/bubbles/100/000000/bank.png'
+                        src='https://img.icons8.com/bubbles/100/000000/gift.png'
                         alt='Digital Assets'
                       />
                     </ReactWOW>
                   </div>
                   <div className='own-card-title'>
-                    <h4>Own your Token/Community</h4>
+                    <h4>Bonus System</h4>
                   </div>
                   <div className='token-inflation-card-body'>
                     <p>
-                      Own independent communitiees powered by your custom tokens
+                      Positive actors in our ecosystem gain incentives from
+                      inflation for achieving various positive actions for the
+                      network
                     </p>
                   </div>
                 </div>

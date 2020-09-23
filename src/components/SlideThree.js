@@ -7,7 +7,7 @@ import "./assets/styles/SlideThree.css";
 export class SlideThree extends Component {
   render() {
     return (
-      <div className="Slide-Three-Wrapper">
+      <div className="Slide-Three-Wrapper Top-Div">
         <ReactWOW animation="slideInLeft">
           <div className="SlideTwo">
             <div className="container">

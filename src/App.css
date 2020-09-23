@@ -1,29 +1,53 @@
 .Slide-Header {
-    margin: 90px 0 50px;
+  margin: 90px 0 50px;
 }
 
 .Slide-Title {
-    text-align: center;
-    text-transform: uppercase;
-    font-weight: 900;
-    font-size: 30px;
-    line-height: 37px;
-    position: relative;
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: 900;
+  font-size: 30px;
+  line-height: 37px;
+  position: relative;
 }
 .Slide-Title::after {
-    content: "";
-    position: absolute;
-    bottom: -16px;
-    left: 45%;
-    width: 70px; 
-    height: 2px;
-    background-color: rgba(18, 157, 243, 0.329);
+  content: '';
+  position: absolute;
+  bottom: -16px;
+  left: 45%;
+  width: 70px;
+  height: 2px;
+  background-color: rgba(18, 157, 243, 0.329);
 }
 .Slide-Title-Desc {
-    margin: 45px 0 10px;
+  margin: 45px 0 10px;
 }
 .divider {
-    margin-top: 0!important;
-    margin-bottom: 0!important;
-    border-top: 0!important;
+  margin-top: 0 !important;
+  margin-bottom: 0 !important;
+  border-top: 0 !important;
 }
+.Top-Div {
+  margin-top: 90px !important;
+}
+.text-black {
+  color: #000;
+}
+
+/* Media Queries */
+@media (max-width: 700px) {
+    .h1, h1 {
+        font-size: 18px!important;
+        color: black;
+    }
+    .Jumbotron-Header-Text {
+        text-align: center;
+        display: none!important;
+        
+        
+    }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 959px) {
+}
+

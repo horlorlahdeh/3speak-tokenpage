@@ -1,6 +1,7 @@
 .token-inflation-card {
   border-radius: 3px;
   display: flex;
+  height: 412px;
   flex-wrap: wrap;
   padding: 24px 24px 48px;
   transition: all 0.2s ease-in-out;
@@ -30,4 +31,13 @@
 }
 .own-card-title {
   margin-bottom: 20px;
+}
+/* Media Queries */
+@media (max-width: 700px) {
+    .token-inflation-card {
+      margin-bottom: 10px;
+    }
+    .tokenomics-ward {
+      margin-bottom: 10px;
+    }
 }

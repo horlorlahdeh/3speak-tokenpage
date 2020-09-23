@@ -8,7 +8,7 @@ import './assets/styles/SlideFour.css';
 export class SlideFour extends Component {
   render() {
     return (
-      <div className='Slide-Four-Wrapper'>
+      <div className='Slide-Four-Wrapper Top-Div'>
         {/* <div className="bg-div"></div> */}
         <div className='container-fluid'>
           <div className='row'>
@@ -19,7 +19,7 @@ export class SlideFour extends Component {
             </div>
             <div className='col-md-6'>
               <div className='eco-features'>
-                <div className='row mb-4'>
+                <div className='row mb-4 no-margin-mobile'>
                   <div className='col-md-6'>
                     <div className='eco-card'>
                       <div className='row'>
@@ -30,7 +30,7 @@ export class SlideFour extends Component {
                           />
                         </div>
                         <div className='col-10'>
-                          <h4 className='eco-title-desc'>VIDEO PLATFORMS</h4>
+                          <h4 className='eco-title-desc'>VIDEO CONTENT PLATFORMS</h4>
                           <p className='eco-desc'>
                             social interfaces. Lorem ipsum dolor sit amet,
                             consectetur adipiscing elit.

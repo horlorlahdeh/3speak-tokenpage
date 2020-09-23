@@ -27,7 +27,7 @@ export class SlideTwo extends Component {
               <div className='row'>
                 <div className='col-md-10 offset-md-1'>
                   <div className='Slide-Header'>
-                    <h2 className='Slide-Title'>SPEAK YOUR TRUTH</h2>
+                    <h2 className='Slide-Title'>FREE SPEECH</h2>
                     <p className='Slide-Title-Desc text-center'>
                       Speak you truth on 3Speak.online while airing your opinion
                       without any fear of censorship.
@@ -55,10 +55,10 @@ export class SlideTwo extends Component {
                         maxWidth: '96px',
                       }}
                     />
-                    <h3 className='text-white'>High Performance</h3>
+                    <h3 className='text-black'>High Performance</h3>
 
                     <h5
-                      className='text-white text-center'
+                      className='text-black text-center'
                       style={{ marginTop: 55, width: '80%' }}
                     >
                       Lorem ipsum dolor sit amet, consectetur adipisicing elit.
@@ -87,10 +87,10 @@ export class SlideTwo extends Component {
                         maxWidth: '96px',
                       }}
                     />
-                    <h3 className='text-white'>Anti-Censorship</h3>
+                    <h3 className='text-black'>Anti-Censorship</h3>
 
                     <h5
-                      className='text-white text-center'
+                      className='text-black text-center'
                       style={{ marginTop: 55, width: '80%' }}
                     >
                       Lorem ipsum dolor sit amet, consectetur adipisicing elit.
@@ -119,10 +119,10 @@ export class SlideTwo extends Component {
                         maxWidth: '96px',
                       }}
                     />
-                    <h3 className='text-white'>HD Videos</h3>
+                    <h3 className='text-black'>HD Videos</h3>
 
                     <h5
-                      className='text-white text-center'
+                      className='text-black text-center'
                       style={{ marginTop: 55, width: '80%' }}
                     >
                       Lorem ipsum dolor sit amet, consectetur adipisicing elit.

@@ -5,3 +5,9 @@
 .cus-padding h4 {
     font-size: 16px;
 }
+/* Media Queries */
+@media (max-width: 700px) {
+    .cus-padding {
+        text-align: center!important;
+    }
+}

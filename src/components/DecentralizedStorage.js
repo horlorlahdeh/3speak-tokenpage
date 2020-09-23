@@ -5,7 +5,7 @@ import ReactWOW from 'react-wow';
 class DecentralizedStorage extends Component {
   render() {
     return (
-      <div className='WebVersion-Wrapper'>
+      <div className='WebVersion-Wrapper Top-Div' style={{ marginTop: 90 }}>
         <div className='bg-div'></div>
         <div className='bg-div2'></div>
         <ReactWOW animation='slideInLeft'>

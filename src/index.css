@@ -7,7 +7,9 @@
   src: local("MyFontRegular"),
     url(./assets/fonts/main-font-regular.woff) format("woff");
 }
-
+html {
+  overflow-x: hidden;
+}
 body {
   margin: 0;
   padding: 0;

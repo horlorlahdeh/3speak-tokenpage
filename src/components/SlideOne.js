@@ -12,7 +12,7 @@ import { faArrowAltCircleRight } from '@fortawesome/free-solid-svg-icons';
 export class SlideOne extends Component {
   render() {
     return (
-      <div className='Slide-One-Wrapper'>
+      <div className='Slide-One-Wrapper Top-Div'>
         <div className='bg-div'></div>
         <div className='bg-div2'></div>
         <ReactWOW animation='slideInLeft'>

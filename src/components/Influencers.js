@@ -6,14 +6,14 @@ import "./assets/styles/Influencers.css";
 export class Influencers extends Component {
   render() {
     return (
-      <div>
+      <div className="Top-Div" style={{marginTop: 90}}>
         <ReactWOW animation='slideInLeft'>
-          <section className='SlideTwo' style={{ marginTop: '100px' }}>
+          <section className='SlideTwo'>
             <div className='container'>
               <div className='row'>
                 <div className='col-md-10 offset-md-1'>
                   <div className='Slide-Header'>
-                    <h2 className='Slide-Title'>INLUENCERS</h2>
+                    <h2 className='Slide-Title'>INFLUENCERS</h2>
                     <p className='Slide-Title-Desc text-center'>
                       Speak you truth on 3Speak.online while airing your opinion
                       without any fear of censorship.
@@ -24,7 +24,8 @@ export class Influencers extends Component {
             </div>
           </section>
         </ReactWOW>
-        <section style={{ paddingTop: 50 }}>
+        <ReactWOW animation="flipInX">
+        <section style={{ paddingTop: 20 }}>
           <div className='container'>
             <div className='row'>
               <div className='col-sm-3 cus-padding'>
@@ -100,6 +101,7 @@ export class Influencers extends Component {
             </div>
           </div>
         </section>
+        </ReactWOW>
       </div>
     );
   }

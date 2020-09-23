@@ -48,3 +48,44 @@
 .Jumbotron-Button {
     margin-top: 30px;
 }
+
+/* Media Queries */
+@media (max-width: 700px) {
+    .SpeakLogo img {
+        width: 100px!important;
+    }
+    .h1, h1 {
+        font-size: 28px!important;
+        color: black;
+    }
+    h1 span {
+        display: block;
+        height: 30px;
+    }
+    .Jumbotron-Header-Text {
+        text-align: center;       
+        
+    }
+    .Jumbotron-Header-Desc {
+        text-align: center;
+        line-height: 1.2rem;
+        font-size: 16px;
+        padding: 0 20px;
+    }
+    .Slide-Header {
+        padding: 10px 20px;
+        font-size: 30px;
+        margin-top: 30px;
+        margin-bottom: 10px;
+    }
+    .Slide-Title {
+        font-size: 27px;
+
+    }
+    .Slide-Title-Desc {
+        font-size: 16px;
+    }
+    .own-card {
+        padding: 10px 20px;
+    }
+}

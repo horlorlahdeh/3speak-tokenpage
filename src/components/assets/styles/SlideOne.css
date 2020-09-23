@@ -105,3 +105,18 @@
   animation-delay: 0.3s;
   animation-duration: 1s;
 }
+
+@media (max-width: 700px) {
+    .WebVersion-Wrapper {
+        padding-bottom: 20px;
+    }
+    .choose-us-wrapper {
+        padding-top: 10px;
+    }
+    .Slide-One-Wrapper {
+      height: auto!important;
+    }
+    .Top-Div {
+      margin-top: 10px!important;
+    }
+}

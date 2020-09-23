@@ -6,6 +6,7 @@ import 'bootstrap/dist/js/bootstrap.min.js';
 import './assets/styles/App.css';
 
 
+
 import MyJumbotron from './components/Jumbotron';
 import WebVersion from './components/WebVersion';
 import DecentralizedStorage from './components/DecentralizedStorage';
@@ -16,6 +17,7 @@ import SlideThree from './components/SlideThree';
 import SlideFour from './components/SlideFour';
 import Roadmap from './components/Roadmap';
 import Influencers from './components/Influencers';
+import ContactForm from './components/ContactForm';
 import GetStarted from './components/GetStarted';
 import Footer from './components/Footer';
 
@@ -32,8 +34,9 @@ function App() {
       <SlideTwo />
       <SlideFour />
       <Roadmap />
+      <ContactForm />
       <GetStarted />
-      <hr className="divider" style={{marginTop: 0, marginBottom: 0, borderTop: '0!important', }} />
+      {/* <hr className="divider" style={{marginTop: 0, marginBottom: 0, borderTop: '0!important', }} /> */}
       <Footer />
     </div>
   );

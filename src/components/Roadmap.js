@@ -8,7 +8,7 @@ export class Roadmap extends Component {
   render() {
     return (
       <div className='Roadmap-Wrapper'>
-        <ReactWOW animation='slideInLeft'>
+        {/* <ReactWOW animation='slideInLeft'>
           <section className='SlideTwo'>
             <div className='container'>
               <div className='row'>
@@ -24,7 +24,7 @@ export class Roadmap extends Component {
               </div>
             </div>
           </section>
-        </ReactWOW>
+        </ReactWOW> */}
         <ReactWOW animation='fadeIn'>
           <div className='Roadmap-Image'>
             <div className='container'>
