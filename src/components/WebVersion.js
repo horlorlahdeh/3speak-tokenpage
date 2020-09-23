@@ -32,7 +32,7 @@ export class WebVersion extends Component {
         <div className='container'>
           <ReactWOW animation='slideInUp'>
             <div className='row entire-row' data-wow-offset='100000'>
-              <div className='col-md-4'>
+              <div className='col-md-3'>
                 <div className='own-card text-center'>
                   <div className='own-card-icon'>
                     <ReactWOW animation='jello'>
@@ -51,7 +51,7 @@ export class WebVersion extends Component {
                   </div>
                 </div>
               </div>
-              <div className='col-md-4'>
+              <div className='col-md-3'>
                 <div className='own-card text-center'>
                   <div className='own-card-icon'>
                     <ReactWOW animation='pulse'>
@@ -70,7 +70,7 @@ export class WebVersion extends Component {
                   </div>
                 </div>
               </div>
-              <div className='col-md-4'>
+              <div className='col-md-3'>
                 <div className='own-card text-center'>
                   <div className='own-card-icon'>
                     <ReactWOW animation='jello'>
@@ -83,10 +83,30 @@ export class WebVersion extends Component {
                     </ReactWOW>
                   </div>
                   <div className='own-card-title'>
-                    <h4>Own your Token/Community</h4>
+                    <h4>Own your Token</h4>
                   </div>
                   <div className='own-card-body'>
                     <p>Own independent communitiees powered by your custom tokens</p>
+                  </div>
+                </div>
+              </div>
+              <div className='col-md-3'>
+                <div className='own-card text-center'>
+                  <div className='own-card-icon'>
+                    <ReactWOW animation='jello'>
+                      <img
+                        className='assets-img'
+                        width='100'
+                        src='https://img.icons8.com/bubbles/100/000000/bank.png'
+                        alt='Digital Assets'
+                      />
+                    </ReactWOW>
+                  </div>
+                  <div className='own-card-title'>
+                    <h4>Own your Community</h4>
+                  </div>
+                  <div className='own-card-body'>
+                    <p>Own independent communitiees powered by a flexibile code-base</p>
                   </div>
                 </div>
               </div>
