@@ -89,9 +89,15 @@ export class MyJumbotron extends Component {
                 />{" "}
                 VIDEO COMMUNITIES !{" "}
               </h1>
-              <p className="Jumbotron-Header-Desc">
-                Welcome to 3Speak, a decentralized video sharing platform
+              <div className="row">
+                <div className="col-md-2"></div>
+                <div className="col-md-8">
+                  <p className="Jumbotron-Header-Desc text-center" style={{lineHeight: '22px', textAlign: 'center', letterSpacing: '3px'}}>
+                    Welcome to 3Speak, a decentralized, censorship  resistant, free speech video sharing network of platforms
               </p>
+                </div>
+                <div className="col-md-2"></div>
+              </div>
               <p>
                 <Button className="btn-lg Jumbotron-Button" variant="primary">
                   Learn more

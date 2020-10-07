@@ -12,14 +12,18 @@ import WebVersion from './components/WebVersion';
 import DecentralizedStorage from './components/DecentralizedStorage';
 import TokenInflation from './components/TokenInflation';
 import SlideOne from './components/SlideOne';
-import SlideTwo from './components/SlideTwo';
-import SlideThree from './components/SlideThree';
-import SlideFour from './components/SlideFour';
+import Features from './components/Features';
+import Tokenomics from './components/Tokenomics';
+import TokenStaking from './components/TokenStaking';
+import DesktopApp from './components/DesktopApp';
+import Communities from './components/Communities';
+import ClaimAirdrop from './components/ClaimAirdrop';
 import Roadmap from './components/Roadmap';
-import Influencers from './components/Influencers';
+import  TokeniseCommunities from './components/TokeniseCommunities';
 import ContactForm from './components/ContactForm';
 import GetStarted from './components/GetStarted';
 import Footer from './components/Footer';
+import BuiltWithHive from './components/BuiltWithHive';
 
 function App() {
   return (
@@ -29,14 +33,16 @@ function App() {
       <SlideOne />
       <DecentralizedStorage />
       <TokenInflation />
-      <SlideThree />
-      <Influencers />
-      <SlideTwo />
-      <SlideFour />
+      <TokeniseCommunities />
+      <Tokenomics />
+      <TokenStaking />
+      <Communities />
+      <DesktopApp />
+      <Features />
       <Roadmap />
+      <BuiltWithHive />
       <ContactForm />
       <GetStarted />
-      {/* <hr className="divider" style={{marginTop: 0, marginBottom: 0, borderTop: '0!important', }} /> */}
       <Footer />
     </div>
   );

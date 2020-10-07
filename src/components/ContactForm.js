@@ -9,13 +9,16 @@ class ContactForm extends Component {
     return (
       <div>
         <div class='contact1'>
+        <div className="Slide-Header">
+          <h2 class='Slide-Title'>Get in touch</h2>
+        </div>
           <div class='container-contact1'>
-            <div class='contact1-pic js-tilt' data-tilt>
+            {/* <div class='contact1-pic js-tilt' data-tilt>
               <img src={SpeakLogo} alt='icon' />
-            </div>
+            </div> */}
 
             <form class='contact1-form validate-form'>
-              <span class='contact1-form-title'>Get in touch</span>
+              
 
               <div
                 class='wrap-input1 validate-input'

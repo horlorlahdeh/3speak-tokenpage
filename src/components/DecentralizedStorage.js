@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 // import ReactDOM from 'react-dom';
 import ReactWOW from 'react-wow';
+import DecentralizedStorageImage from './assets/images/decentralized_storage.png'
 
 class DecentralizedStorage extends Component {
   render() {
@@ -14,11 +15,9 @@ class DecentralizedStorage extends Component {
               <div className='row'>
                 <div className='col-md-10 offset-md-1'>
                   <div className='Slide-Header'>
-                    <h2 className='Slide-Title'>DECENTRALIZED STORAGE NODES</h2>
+                    <h2 className='Slide-Title'>DECENTRALIZED STORAGE / NETWORK SERVICE NODES</h2>
                     <p className='Slide-Title-Desc text-center'>
-                      With 3Speak videos are stored in such a manner that
-                      protects content creators such as Vloggers from bad actors
-                      and censorship.
+                      3Speak solves the above issues by creating a network of low cost, easy to run, distributed storage, service and token transaction validation nodes that are maintained by members of the community.
                     </p>
                   </div>
                 </div>
@@ -41,13 +40,11 @@ class DecentralizedStorage extends Component {
                     </ReactWOW>
                   </div>
                   <div className='own-card-title'>
-                    <h4>Free Speech</h4>
+                    <h4>Community Driven Free Speech</h4>
                   </div>
                   <div className='own-card-body'>
                     <p>
-                      We have guaranteed free speech for our content creators,
-                      since it will be impossible to remove videos from the
-                      network that the community itself is storing
+                      FreeSpeech will be driven and decided upon by the community of users who support the storage of your content.  The self-hosting content creator and their community will decide what is allowed and what is not allowed
                     </p>
                   </div>
                 </div>
@@ -70,7 +67,7 @@ class DecentralizedStorage extends Component {
                     <p>
                       A separate desktop app that stores the videos every time a
                       user clicks play so that the videos are backed up far and
-                      wide making them harder to censor
+                      wide making them harder to censor. This also means that even if 3peak the Web app platform is shut down, the desk top app can just be downloaded.  This automatically plugs into the 3Speak back up storage network so that content lives on even if our web platform is attacked.
                     </p>
                   </div>
                 </div>
@@ -94,11 +91,20 @@ class DecentralizedStorage extends Component {
                     <p>
                       Our Communities are build in such a manner that any
                       external video platform can plug in to contribute to the
-                      network and earn tokens.{' '}
+                      network and earn tokens. We invite all independent platforms and creators to join us and help us store their content on the 3Speak network and be rewarded with mining rewards in exchange{' '}
                     </p>
                   </div>
                 </div>
               </div>
+            </div>
+          </ReactWOW>
+          <ReactWOW animation='shake'>
+            <div className="row entire-row">
+              <div className="col-md-1"></div>
+              <div className="col-md-10">
+                <img src={DecentralizedStorageImage} alt="DecentralizedStorageImage" className="section-image" style={{width: '100%'}}/>
+              </div>
+              <div className="col-md-1"></div>
             </div>
           </ReactWOW>
         </div>

@@ -15,12 +15,9 @@ class TokenInflation extends Component {
               <div className='row'>
                 <div className='col-md-10 offset-md-1'>
                   <div className='Slide-Header'>
-                    <h2 className='Slide-Title'>TOKEN INFLATION</h2>
+                    <h2 className='Slide-Title'>MINE REWARDS FOR CONTRIBUTING TO THE SYSTEM</h2>
                     <p className='Slide-Title-Desc text-center'>
-                      3Speak provides the ability to any video platform or
-                      content creator to store video content in a decentralised
-                      back up IPFS / Torrent network while rewarding value
-                      providers with the SPEAK token.
+                      3Speak provides the ability for any video platform, content creator or individual user to help secure the network by storing video files, validating token transactions or running service nodes within our back up storage network.  Participating in these activities allows you to become a miner in the network and earn rewards.
                     </p>
                   </div>
                 </div>

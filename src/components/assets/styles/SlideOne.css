@@ -75,7 +75,7 @@
   border-radius: 50%;
 }
 .Censorship-Image {
-  width: 110%;
+  width: 130%;
   transition: all 0.8s ease-in-out;
   animation-delay: 2s;
   animation-duration: 2s;
@@ -94,7 +94,7 @@
     animation-delay: 2s;
 }
 .Censorship-Image:hover {
-  width: 105%;
+  width: 125%;
   animation-name: slideInLeft;
   visibility: visible;
 }

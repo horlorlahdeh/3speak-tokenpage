@@ -1,13 +1,39 @@
 .Footer {
-    background: #F4A7AE;
+    background: #E8E8E8;
+    padding: 20px 0;
 }
-.footer-icons {
+/* .footer-icons {
   display: flex!important;
-}
+} */
 .icon-item {
   align-self: center;
   list-style: none;
+  
+}
+.footer-links {
+  color: #000!important;
+  font-size: 14px;
+  width: 100%!important;
+  
 }
 .social-img {
     padding: 6px;
+}
+.footer-img {
+  width: 50%;
+}
+.footer-items-title {
+  margin-bottom: 25px;
+  margin-top: 20px;
+}
+.contact-email {
+  margin: 0!important;
+  font-size: 14px;
+  line-height: normal;
+}
+.hive-footer-icon {
+  width: 55px!important;
+}
+.contact-email i {
+  margin-right: 3px;
 }

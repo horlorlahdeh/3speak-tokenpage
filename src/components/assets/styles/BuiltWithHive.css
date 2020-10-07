@@ -1,0 +1,27 @@
+.hive-logo-section {
+  width: 80%;
+}
+
+.section-hive-title {
+  text-transform: uppercase;
+}
+.learn-hive-btn {
+  border: 1px solid #e31337;
+}
+.hive-features {
+  margin-top: 12px;
+  padding: 0;
+}
+.each-hive-feature {
+  width: 100%;
+}
+.hive-feature-card {
+  background: #fff;
+  padding: 15px;
+  margin: 4px;
+  box-shadow: 0 10px 55px 5px rgba(137, 172, 255, 0.178);
+  transition: all 0.8s ease-in-out;
+  -webkit-transition-: all 0.8s ease-in-out;
+  -o-: all 0.8s ease-in-out;
+  -moz-: all 0.8s ease-in-out;
+}

@@ -9,6 +9,7 @@
 .tokenomics-card {
   display: flex;
   flex-direction: column;
+  min-height: 310px;
   align-items: center;
   justify-content: center;
   padding: 15px 10px;

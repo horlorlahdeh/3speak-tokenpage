@@ -32,7 +32,7 @@ export class WebVersion extends Component {
         <div className='container'>
           <ReactWOW animation='slideInUp'>
             <div className='row entire-row' data-wow-offset='100000'>
-              <div className='col-md-3'>
+              {/* <div className='col-md-3'>
                 <div className='own-card text-center'>
                   <div className='own-card-icon'>
                     <ReactWOW animation='jello'>
@@ -50,8 +50,8 @@ export class WebVersion extends Component {
                     <p>Own your Account without any fear of censorship</p>
                   </div>
                 </div>
-              </div>
-              <div className='col-md-3'>
+              </div> */}
+              <div className='col-md-4'>
                 <div className='own-card text-center'>
                   <div className='own-card-icon'>
                     <ReactWOW animation='pulse'>
@@ -63,14 +63,14 @@ export class WebVersion extends Component {
                     </ReactWOW>
                   </div>
                   <div className='own-card-title'>
-                    <h4>Own your Storage</h4>
+                    <h4>Self Hosting</h4>
                   </div>
                   <div className='own-card-body'>
-                    <p>Own your own decentralized without any form of central control</p>
+                    <p>Your community can take responsibility for backing up your videos with the networks self-hosting system.  This removes centralised control of censorship and content, putting the responsibility with you and your community</p>
                   </div>
                 </div>
               </div>
-              <div className='col-md-3'>
+              <div className='col-md-4'>
                 <div className='own-card text-center'>
                   <div className='own-card-icon'>
                     <ReactWOW animation='jello'>
@@ -83,14 +83,14 @@ export class WebVersion extends Component {
                     </ReactWOW>
                   </div>
                   <div className='own-card-title'>
-                    <h4>Own your Token</h4>
+                    <h4>Create Token Economies</h4>
                   </div>
                   <div className='own-card-body'>
-                    <p>Own independent communitiees powered by your custom tokens</p>
+                    <p>Create and Fund your Own Token Economies to allow your community to operate outside of and independently from the “System”</p>
                   </div>
                 </div>
               </div>
-              <div className='col-md-3'>
+              <div className='col-md-4'>
                 <div className='own-card text-center'>
                   <div className='own-card-icon'>
                     <ReactWOW animation='jello'>
@@ -103,10 +103,10 @@ export class WebVersion extends Component {
                     </ReactWOW>
                   </div>
                   <div className='own-card-title'>
-                    <h4>Own your Community</h4>
+                    <h4>Immutable Communities</h4>
                   </div>
                   <div className='own-card-body'>
-                    <p>Own independent communitiees powered by a flexibile code-base</p>
+                    <p>Members of your communities are backed up on the blockchain, so that we cannot delete them. Making them immutable and resistant to censorship</p>
                   </div>
                 </div>
               </div>
