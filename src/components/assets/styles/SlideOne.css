@@ -105,6 +105,9 @@
   animation-delay: 0.3s;
   animation-duration: 1s;
 }
+.current-state-text {
+  margin: 0!important;
+}
 
 @media (max-width: 700px) {
     .WebVersion-Wrapper {

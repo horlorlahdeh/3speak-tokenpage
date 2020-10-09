@@ -38,7 +38,7 @@ export class SlideOne extends Component {
                 <div className='col-md-7'>
                   {/*<div className="choose-us-title">
                     <h2> Why Choose Us?</h2>
-                    <p>
+                    <p className='current-state-text'>
                       Cum sociis natoque penatibus et magnis dis parturient
                       montes, nascetur ridiculus mus. Quisque lacus dui,
                       interdum sit amet varius.
@@ -56,7 +56,7 @@ export class SlideOne extends Component {
                           </div>
 
                           <h3>LACK OF ENTERPRISE GRADE YOUTUBE COMPETITION</h3>
-                          <p>
+                          <p className='current-state-text'>
                             Without significant funding much of the competition that provides valuable alternatives to youtube is not able to provide a high quality, experience with convenience built in
                           </p>
                         </div>
@@ -72,7 +72,7 @@ export class SlideOne extends Component {
                           <h3>
                             SLIPPERY SLOPE TO CENSORSHIP AND AUTHORITARIANISM
                           </h3>
-                          <p>
+                          <p className='current-state-text'>
                             Legacy Web2.0 platforms are centralised. Their centralised nature results in excessive amounts of power in the hands of a small few at the top of the social media platforms.  These positions are susceptible to subversion by authoritarians and anti-free speech activists.
                           </p>
                         </div>
@@ -86,7 +86,7 @@ export class SlideOne extends Component {
                           </div>
 
                           <h3>CREATORS BEING ACTIVELY CENSORED</h3>
-                          <p>
+                          <p className='current-state-text'>
                             It has been clearly demonstrated that the centralised web2.0 platforms have censored political views.  Censorship in a civilised society is abhorrent and unacceptable.
                           </p>
                         </div>
@@ -100,7 +100,7 @@ export class SlideOne extends Component {
                           </div>
 
                           <h3>LEADS TO EXTREMISM</h3>
-                          <p>
+                          <p className='current-state-text'>
                             Cancelling and censoring users drives them under ground to clandestine networks.  This results in extremist views not being challenged and debated in public.  It results in an increase of extremism and not a reduction. It also allows the big tech legacy platforms to control the narrative, which also results in its own forms of extremism.
                           </p>
                         </div>
