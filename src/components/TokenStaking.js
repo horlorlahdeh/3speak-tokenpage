@@ -33,7 +33,7 @@ export class TokenStaking extends Component {
                   </div>
                 </ReactWOW>
                 <div className='col-md-5'>
-                  <div className='Sub-Slide-Header'>
+                  <div className='Sub-Slide-Header' style={{marginTop: '0'}}>
                     <h3 className='Tokenise-Title'>
                       The following users will need to stake tokens in order to
                       take part in the network:{' '}
