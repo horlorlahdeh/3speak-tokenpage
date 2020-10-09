@@ -16,10 +16,12 @@ import Features from './components/Features';
 import Tokenomics from './components/Tokenomics';
 import TokenStaking from './components/TokenStaking';
 import DesktopApp from './components/DesktopApp';
+import IPFSStorage from './components/IPFSStorage';
 import Communities from './components/Communities';
-import ClaimAirdrop from './components/ClaimAirdrop';
+// import ClaimAirdrop from './components/ClaimAirdrop';
 import Roadmap from './components/Roadmap';
 import  TokeniseCommunities from './components/TokeniseCommunities';
+import  MemeNftMining from './components/MemeNftMining';
 import ContactForm from './components/ContactForm';
 import GetStarted from './components/GetStarted';
 import Footer from './components/Footer';
@@ -34,10 +36,12 @@ function App() {
       <DecentralizedStorage />
       <TokenInflation />
       <TokeniseCommunities />
+      <MemeNftMining />
       <Tokenomics />
       <TokenStaking />
       <Communities />
       <DesktopApp />
+      <IPFSStorage />
       <Features />
       <Roadmap />
       <BuiltWithHive />

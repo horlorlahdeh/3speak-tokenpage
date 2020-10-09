@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 // import ReactDOM from "react-dom";
 import ReactWOW from 'react-wow';
-import Airdrop from './assets/images/parachute.png';
+// import Airdrop from './assets/images/parachute.png';
 import './assets/styles/Communities.css';
 
 export class Communities extends Component {
@@ -33,7 +33,7 @@ export class Communities extends Component {
             <div className='row token-utitlity-row'>
               <div className='col-md-3'>
                 <ReactWOW animation='flipInX'>
-                  <button className='card'>
+                  <button className='card mobile-margin-auto'>
                     <section className='m-auto'>
                       <img
                         className='avatar'
@@ -49,7 +49,7 @@ export class Communities extends Component {
               </div>
               <div className='col-md-3'>
                 <ReactWOW animation='flipInX'>
-                  <button className='card'>
+                  <button className='card mobile-margin-auto'>
                     <section className='m-auto'>
                       <img
                         className='avatar'
@@ -65,7 +65,7 @@ export class Communities extends Component {
               </div>
               <div className='col-md-3'>
                 <ReactWOW animation='flipInX'>
-                  <button className='card'>
+                  <button className='card mobile-margin-auto'>
                     <section className='m-auto'>
                       <img
                         className='avatar'
@@ -81,7 +81,7 @@ export class Communities extends Component {
               </div>
               <div className='col-md-3'>
                 <ReactWOW animation='flipInX'>
-                  <button className='card'>
+                  <button className='card mobile-margin-auto'>
                     <section className='m-auto'>
                       <img
                         className='avatar'
@@ -97,7 +97,7 @@ export class Communities extends Component {
               </div>
               <div className='col-md-3'>
                 <ReactWOW animation='flipInX'>
-                  <button className='card'>
+                  <button className='card mobile-margin-auto'>
                     <section className='m-auto'>
                       <img
                         className='avatar'
@@ -113,7 +113,7 @@ export class Communities extends Component {
               </div>
               <div className='col-md-3'>
                 <ReactWOW animation='flipInX'>
-                  <button className='card'>
+                  <button className='card mobile-margin-auto'>
                     <section className='m-auto'>
                       <img
                         className='avatar'
@@ -129,7 +129,7 @@ export class Communities extends Component {
               </div>
               <div className='col-md-3'>
                 <ReactWOW animation='flipInX'>
-                  <button className='card'>
+                  <button className='card mobile-margin-auto'>
                     <section className='m-auto'>
                       <img
                         className='avatar'
@@ -145,7 +145,7 @@ export class Communities extends Component {
               </div>
               <div className='col-md-3'>
                 <ReactWOW animation='flipInX'>
-                  <button className='card'>
+                  <button className='card mobile-margin-auto'>
                     <section className='m-auto'>
                       <img
                         className='avatar'

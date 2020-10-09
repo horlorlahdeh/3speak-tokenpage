@@ -106,9 +106,10 @@ export class Tokenomics extends Component {
                   <div className='tokenomics-card text-center'>
                     <img
                       className='tokenomics-img'
-                      src='https://img.icons8.com/color/96/000000/commercial.png'
-                      alt='Tipping'
+                      src='https://img.icons8.com/color/96/000000/matches.png'
+                      alt='Burn Token'
                     />
+                   
                     <h6 className='tokenomics-header'>SPEND/BURN TOKENS</h6>
                     <p className='tokenomics-desc text-center'>
                       Burn tokens on the network to get your content to feature
@@ -141,9 +142,10 @@ export class Tokenomics extends Component {
                   <div className='tokenomics-card text-center'>
                     <img
                       className='tokenomics-img'
-                      src='https://img.icons8.com/color/96/000000/card-security.png'
+                      src='https://img.icons8.com/color/96/000000/commercial.png'
                       alt='Money'
                     />
+                    
                     <h6 className='tokenomics-header'>MARKETING</h6>
                     <p className='tokenomics-desc text-center'>
                       use our marketing system to approach a community and
@@ -158,9 +160,10 @@ export class Tokenomics extends Component {
                   <div className='tokenomics-card text-center'>
                     <img
                       className='tokenomics-img'
-                      src='https://img.icons8.com/color/96/000000/card-security.png'
+                      src='https://img.icons8.com/color/96/000000/communication.png'
                       alt='Money'
                     />
+                    
                     <h6 className='tokenomics-header'>SUPER CHATS</h6>
                     <p className='tokenomics-desc text-center'>
                       Enjoy Super Chat made availalbe on live streams. An avenue

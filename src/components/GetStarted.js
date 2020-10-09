@@ -16,10 +16,12 @@ export default function GetStarted() {
             </div>
             <div className='get-started-title text-center'>
               <h2>Get Started</h2>
-              <p>
+              <br />
+              <br />
+              {/* <p>
                 Lorem ipsum dolor, sit amet consectetur adipisicing elit.
                 necessitatibus ad esse molestiae!
-              </p>
+              </p> */}
               <a href='#!' className='start-now'>
                 Start Now
               </a>

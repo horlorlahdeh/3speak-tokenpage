@@ -87,7 +87,7 @@ export class MyJumbotron extends Component {
                   style={{ color: "#6BC5D7" }}
                   id="text"
                 />{" "}
-                VIDEO COMMUNITIES !{" "}
+                CONTENT COMMUNITIES !{" "}
               </h1>
               <div className="row">
                 <div className="col-md-2"></div>

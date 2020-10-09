@@ -25,3 +25,21 @@
   -o-: all 0.8s ease-in-out;
   -moz-: all 0.8s ease-in-out;
 }
+@media (max-width: 768px) {
+  .coins-img {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+  }
+  .desc .desc-text {
+    text-align: center;
+  }
+  .section-hive-title {
+    text-align: center;
+  }
+  .hive-logo-section {
+    width: 40%;
+  
+    align-self: center;
+  }
+}

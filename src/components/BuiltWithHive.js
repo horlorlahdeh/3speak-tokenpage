@@ -6,15 +6,15 @@ export default class BuiltWithHive extends Component {
     return (
       <div>
         <section
-          class='section-light'
+          className='section-light'
           style={{ marginTop: '50px', marginBottom: '50px' }}
         >
-          <div class='container'>
-            <div class='section-wrapper'>
-              <div class='row'>
-                <div class='col-md-6'>
-                  <div class='svg-gears'>
-                    <div class='coins-img hive-icon'>
+          <div className='container'>
+            <div className='section-wrapper'>
+              <div className='row'>
+                <div className='col-md-6'>
+                  <div className='svg-gears'>
+                    <div className='coins-img hive-icon'>
                       <img
                         className='hive-logo-section'
                         src='https://hive.cdn.3speakcontent.co/hive-branding/logo/png/logo_transparent@1.png'
@@ -23,17 +23,16 @@ export default class BuiltWithHive extends Component {
                     </div>
                   </div>
                 </div>
-                <div class='col-md-6'>
-                  <div class='section-header'>
-                    <h2 class='section-hive-title'>Built With HIVE</h2>
+                <div className='col-md-6'>
+                  <div className='section-header'>
+                    <h2 className='section-hive-title'>Built With HIVE</h2>
                   </div>
-                  <div class='desc'>
-                    <p class='desc-text'>
+                  <div className='desc'>
+                    <p className='desc-text'>
                       3Speak uses the Hive blockchain to reward its users and
                       store much of its content immutably.
                     </p>
-                    <div class='action-button'>
-                      
+                    <div className='action-button'>
                       <div className='row'>
                         <div className='col-md-6'>
                           <div className='hive-feature-card'>

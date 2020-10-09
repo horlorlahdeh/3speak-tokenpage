@@ -14,20 +14,20 @@ export default class Footer extends Component {
                 alt='Twitter'
                 className='footer-img'
               />
-              <p className='contact-email'><i class='fa fa-envelope' aria-hidden='true'></i>helpdesk@3speak.co</p>
-              <p className='contact-email'><i class='fa fa-globe ' aria-hidden='true'></i>3speak.co</p>
+              <p className='contact-email'><i className='fa fa-envelope' aria-hidden='true'></i>helpdesk@3speak.co</p>
+              <p className='contact-email'><i className='fa fa-globe ' aria-hidden='true'></i>3speak.co</p>
             </div>
             <div className='col-md-2'>
               <h6 className='footer-items-title'>Company</h6>
               <ul className='footer-icons' style={{ padding: 0 }}>
                 <li className='icon-item'>
-                  <a className='footer-links' href="">About Us</a>
+                  <a className='footer-links' href="#!">About Us</a>
                 </li>
                 <li className='icon-item'>
-                  <a className='footer-links' href="">FAQ</a>
+                  <a className='footer-links' href="#!">FAQ</a>
                 </li>
                 <li className='icon-item'>
-                  <a className='footer-links' href="">Terms</a>
+                  <a className='footer-links' href="#!">Terms</a>
                 </li>
                 </ul>
             </div>
@@ -35,7 +35,7 @@ export default class Footer extends Component {
               <h6 className='footer-items-title'>Accepted Payment Methods</h6>
               <ul className='footer-icons' style={{ padding: 0 }}>
                 <li className='icon-item d-flex'>
-                  <img src="https://hive.cdn.3speakcontent.co/hive-branding/logo/png/logo_transparent@1.png" className='hive-footer-icon' alt=""/><a className='footer-links' href="">About Us</a>
+                  <img src="https://hive.cdn.3speakcontent.co/hive-branding/logo/png/logo_transparent@1.png" className='hive-footer-icon' alt=""/><a className='footer-links' href="#!">About Us</a>
                 </li>
                 
                 </ul>

@@ -37,3 +37,9 @@
 .contact-email i {
   margin-right: 3px;
 }
+
+@media (max-width: 768px) {
+  .footer-img {
+    width: 20%;
+  }
+}

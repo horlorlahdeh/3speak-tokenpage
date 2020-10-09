@@ -32,6 +32,10 @@
 .own-card-title {
   margin-bottom: 20px;
 }
+.own-card-title h4 {
+  font-size: 18px;
+
+}
 /* Media Queries */
 @media (max-width: 700px) {
     .token-inflation-card {

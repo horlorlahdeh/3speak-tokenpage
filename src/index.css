@@ -15,7 +15,7 @@ body {
   padding: 0;
   overflow-x: hidden;
   font-family: "MyFontRegular";
-  font-weight: 400;
+  /* font-weight: 400; */
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
@@ -35,6 +35,9 @@ h4,
 h5,
 h6 {
   font-family: "MyFont";
+}
+.own-card-title {
+  font-size: 18px!important;
 }
 /* code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
