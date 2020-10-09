@@ -5,8 +5,6 @@ import 'bootstrap/dist/js/bootstrap.min.js';
 // import ReactWOW from 'react-wow';
 import './assets/styles/App.css';
 
-
-
 import MyJumbotron from './components/Jumbotron';
 import WebVersion from './components/WebVersion';
 import DecentralizedStorage from './components/DecentralizedStorage';
@@ -20,8 +18,8 @@ import IPFSStorage from './components/IPFSStorage';
 import Communities from './components/Communities';
 // import ClaimAirdrop from './components/ClaimAirdrop';
 import Roadmap from './components/Roadmap';
-import  TokeniseCommunities from './components/TokeniseCommunities';
-import  MemeNftMining from './components/MemeNftMining';
+import TokeniseCommunities from './components/TokeniseCommunities';
+import MemeNftMining from './components/MemeNftMining';
 import ContactForm from './components/ContactForm';
 import GetStarted from './components/GetStarted';
 import Footer from './components/Footer';
@@ -29,7 +27,7 @@ import BuiltWithHive from './components/BuiltWithHive';
 
 function App() {
   return (
-    <div className="App">
+    <div className='App'>
       <MyJumbotron />
       <WebVersion />
       <SlideOne />
