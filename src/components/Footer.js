@@ -8,10 +8,11 @@ export default class Footer extends Component {
       <div className='Footer'>
         <div className="container">
           <div className='row'>
+            <div className="col-md-2"></div>
             <div className='col-md-3'>
               <img
-                src='http://localhost:3000/static/media/3S_logo.1bac8eb7.png'
-                alt='Twitter'
+                src={require('./assets/images/3S_logo.png')}
+                alt='3S logo'
                 className='footer-img'
               />
               <p className='contact-email'><i className='fa fa-envelope' aria-hidden='true'></i>helpdesk@3speak.co</p>
@@ -40,7 +41,7 @@ export default class Footer extends Component {
                 
                 </ul>
             </div>
-            <div className='col-md-3'></div>
+            <div className='col-md-2'></div>
           </div>
         </div>
       </div>

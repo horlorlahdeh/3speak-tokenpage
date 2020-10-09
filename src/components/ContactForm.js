@@ -9,7 +9,7 @@ class ContactForm extends Component {
     return (
       <div>
         <div className='contact1'>
-        <div className="Slide-Header">
+          <div className="Slide-Header" style={{ marginTop: '50px' }}>
           <h2 className='Slide-Title'>Get in touch</h2>
         </div>
           <div className='container-contact1 justify-content-center'>

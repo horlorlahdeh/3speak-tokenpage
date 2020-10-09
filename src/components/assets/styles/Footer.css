@@ -20,10 +20,10 @@
     padding: 6px;
 }
 .footer-img {
-  width: 50%;
+  width: 40%;
 }
 .footer-items-title {
-  margin-bottom: 25px;
+  margin-bottom: 5px;
   margin-top: 20px;
 }
 .contact-email {
@@ -33,6 +33,9 @@
 }
 .hive-footer-icon {
   width: 55px!important;
+}
+.contact-email {
+  margin-bottom: 5px;
 }
 .contact-email i {
   margin-right: 3px;
