@@ -34,7 +34,7 @@ export class SlideOne extends Component {
         <ReactWOW animation="slideInLeft">
           <div className='choose-us-wrapper'>
             <div className='container'>
-              <div className='row'>
+              <div className='row' data-wow-offset='100000'>
                 <div className='col-md-7'>
                   {/*<div className="choose-us-title">
                     <h2> Why Choose Us?</h2>
@@ -110,17 +110,13 @@ export class SlideOne extends Component {
                 </div>
                 <div className='col-md-5'>
                   <div className='Censorship-Image-Wrapper'>
-                    <ReactWOW
-                      animation='shake'
-                      data-wow-duration='2s'
-                      data-wow-delay='4s'
-                    >
+                    
                       <img
                         className='Censorship-Image'
                         src={require('./assets/images/online_media.png')}
                         alt='iphone'
                       />
-                    </ReactWOW>
+                   
                   </div>
                 </div>
               </div>

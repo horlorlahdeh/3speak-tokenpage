@@ -137,6 +137,7 @@ export class Tokenomics extends Component {
               </ReactWOW>
             </div>
             <div className='row token-utility-row'>
+              <div className="col-md-2 hide-sm"></div>
               <ReactWOW animation='flipInX'>
                 <div className='col-md-4 tokenomics-card-wait'>
                   <div className='tokenomics-card text-center'>
@@ -172,6 +173,7 @@ export class Tokenomics extends Component {
                   </div>
                 </div>
               </ReactWOW>
+              <div className="col-md-2 hide-sm"></div>
             </div>
           </div>
         </div>

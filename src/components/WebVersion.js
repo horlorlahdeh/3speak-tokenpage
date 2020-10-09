@@ -66,7 +66,7 @@ export class WebVersion extends Component {
                   <div className='own-card-body'>
                     <p>
                       {!this.state.readMoreSelfHosting
-                        ? this.state.selfHostingText.substring(0, 100) + ' ...'
+                        ? this.state.selfHostingText.substring(0, 50) + ' ...'
                         : this.state.selfHostingText}
                     </p>
                     <button
@@ -101,7 +101,7 @@ export class WebVersion extends Component {
                   <div className='own-card-body'>
                     <p>
                       {!this.state.readMoreCreateToken
-                        ? this.state.createTokenText.substring(0, 100) + ' ...'
+                        ? this.state.createTokenText.substring(0, 50) + ' ...'
                         : this.state.createTokenText}
                     </p>
                     <button
@@ -136,7 +136,7 @@ export class WebVersion extends Component {
                   <div className='own-card-body'>
                     <p>
                       {!this.state.readMoreImmutable
-                        ? this.state.immutableCommunities.substring(0, 100) +
+                        ? this.state.immutableCommunities.substring(0, 50) +
                           ' ...'
                         : this.state.immutableCommunities}
                     </p>
@@ -170,7 +170,7 @@ export class WebVersion extends Component {
                   <div className='own-card-body'>
                     <p>
                       {!this.state.readMoreMemeMining
-                        ? this.state.memeMining.substring(0, 100) + ' ...'
+                        ? this.state.memeMining.substring(0, 50) + ' ...'
                         : this.state.memeMining}
                     </p>
                     <button
