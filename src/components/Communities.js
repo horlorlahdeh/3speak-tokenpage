@@ -19,7 +19,7 @@ export class Communities extends Component {
                       Communities are immutable! Communities are owned by the
                       creator and cannot be deleted by anyone but the creator.
                       Lists of community members are stored on the blockchain
-                      and so cannot be deleted but a central entity as with
+                      and so cannot be deleted by a central entity as with
                       legacy big tech platforms
                     </p>
                   </div>

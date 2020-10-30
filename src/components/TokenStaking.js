@@ -15,8 +15,8 @@ export class TokenStaking extends Component {
                   <div className='Slide-Header'>
                     <h2 className='Slide-Title'>TOKEN STAKING</h2>
                     <p className='Slide-Title-Desc text-center'>
-                      Staking tokens gets you the following benefits: Platform
-                      influence, Longer staking period = higher rewards, receive
+                      Staking tokens enables you to receive: Platform
+                      influence, longer staking period = higher rewards, receive
                       beneficiaries from all other network platforms,
                     </p>
                   </div>

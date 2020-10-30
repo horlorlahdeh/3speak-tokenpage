@@ -91,7 +91,7 @@ class TokenInflation extends Component {
                   <div className='token-inflation-card-body'>
                     <p>
                       Users storing data locally using their desktop application
-                      will also earn some token from distribution.
+                      will also earn some tokens from distribution.
                     </p>
                   </div>
                 </div>

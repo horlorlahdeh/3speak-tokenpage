@@ -13,9 +13,9 @@ class DecentralizedStorage extends Component {
       communityDrivenText:
         'FreeSpeech will be driven and decided upon by the community of users who support the storage of your content.  The self-hosting content creator and their community will decide what is allowed and what is not allowed',
       censorshipResistantText:
-        'A separate desktop app that stores the videos every time a user clicks play so that the videos are backed up far and wide making them harder to censor.This also means that even if 3peak the Web app platform is shut down, the desktop app can just be downloaded.This automatically plugs into the 3Speak back up storage network so that content lives on even if our web platform is attacked.',
+        'A separate desktop app that stores the videos every time a user clicks play so that the videos are backed up far and wide making them harder to censor. This also means that even if 3peak the Web app platform is shut down, the desktop app can just be downloaded. This automatically plugs into the 3Speak back up storage network so that content lives on, even if our web platform is attacked.',
       scalableBackend:
-        'Our Communities are build in such a manner that any external video platform can plug in to contribute to the network and earn tokens.We invite all independent platforms and creators to join us and help us store their content on the 3Speak network and be rewarded with mining rewards in exchange',
+        'Our Communities are built in such a manner that any external video platform can plug in to contribute to the network and earn tokens. We invite all independent platforms and creators to join us and help us to store their content on the 3Speak network and be rewarded with mining rewards in exchange',
     };
   }
   render() {
@@ -46,7 +46,7 @@ class DecentralizedStorage extends Component {
         </ReactWOW>
         <div className='container'>
           <ReactWOW animation='slideInUp'>
-            <div className='row entire-row' data-wow-offset='100000' style={{marginBottom: '25px'}}>
+            <div className='row entire-row' data-wow-offset='100000' style={{marginBottom: '150px'}}>
               <div className='col-md-4'>
                 <div className='own-card text-center'>
                   <div className='own-card-icon'>

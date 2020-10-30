@@ -1,5 +1,7 @@
 import React, { Component } from 'react';
 import './assets/styles/BuiltWithHive.css';
+import HiveLogo from './assets/images/hive-logo.png';
+
 
 export default class BuiltWithHive extends Component {
   render() {
@@ -17,8 +19,8 @@ export default class BuiltWithHive extends Component {
                     <div className='coins-img hive-icon'>
                       <img
                         className='hive-logo-section'
-                        src='https://hive.cdn.3speakcontent.co/hive-branding/logo/png/logo_transparent@1.png'
                         alt='hive logo'
+                        src={HiveLogo}
                       />
                     </div>
                   </div>

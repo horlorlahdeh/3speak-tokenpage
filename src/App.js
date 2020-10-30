@@ -11,6 +11,7 @@ import DecentralizedStorage from './components/DecentralizedStorage';
 import TokenInflation from './components/TokenInflation';
 import SlideOne from './components/SlideOne';
 import Features from './components/Features';
+import CreateVideoSites from './components/CreateVideoSites';
 import Tokenomics from './components/Tokenomics';
 import TokenStaking from './components/TokenStaking';
 import DesktopApp from './components/DesktopApp';
@@ -38,6 +39,7 @@ function App() {
       <Tokenomics />
       <TokenStaking />
       <Communities />
+      <CreateVideoSites />
       <DesktopApp />
       <IPFSStorage />
       <Features />

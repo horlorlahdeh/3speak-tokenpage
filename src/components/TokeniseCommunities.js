@@ -46,7 +46,7 @@ export class TokeniseCommunities extends Component {
                             />
                           </div>
                           <div className='col-10'>
-                            Content creator and community economies outside and
+                            Content creators and community economies outside and
                             independent of the system are unstoppable
                           </div>
                         </div>
@@ -58,7 +58,7 @@ export class TokeniseCommunities extends Component {
                             />
                           </div>
                           <div className='col-10'>
-                            These tokens will be ETH wrapped and so will be able
+                            These tokens will be ETH wrapped enabling
                             to be traded on highly liquid decentralised
                             exchanges on the Ethereum network
                           </div>

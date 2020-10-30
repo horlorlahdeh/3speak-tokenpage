@@ -101,7 +101,7 @@ export class SlideOne extends Component {
 
                           <h3>LEADS TO EXTREMISM</h3>
                           <p className='current-state-text'>
-                            Cancelling and censoring users drives them under ground to clandestine networks.  This results in extremist views not being challenged and debated in public.  It results in an increase of extremism and not a reduction. It also allows the big tech legacy platforms to control the narrative, which also results in its own forms of extremism.
+                            Cancelling and censoring users drives them under ground to clandestine networks.  This results in extremist views not being challenged and debated in public.  It results in an increase of extremism, not reduction. It also allows the big tech legacy platforms to control the narrative, which also results in its own forms of extremism.
                           </p>
                         </div>
                       

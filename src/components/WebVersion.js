@@ -19,7 +19,7 @@ export class WebVersion extends Component {
       immutableCommunities:
         'Members of your communities are backed up on the blockchain, so that we cannot delete them.Making them immutable and resistant to censorship',
       memeMining:
-        'When users can mine rare, collectible NFT’s by HODLing and staking the tokens of their favourite creators, we will have a new value capture mechanism that will be as powerful as the stock market mechanism for value investors. 3speak is implementing this',
+        'When users can mine rare, collectible NFT’s by HODLing and staking the tokens of their favourite creators. We will have a new value capture mechanism that will be as powerful as the stock market mechanism for value investors. 3speak is implementing this',
     };
   }
   render() {

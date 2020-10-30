@@ -14,3 +14,7 @@
     overflow: hidden;
     height: 600px;
 }
+.cus-container {
+  width: 88% !important;
+  margin: auto;
+}

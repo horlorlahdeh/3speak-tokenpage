@@ -16,7 +16,7 @@ export class DesktopApp extends Component {
                     <h2 className='Slide-Title'>DESKTOP APP</h2>
                     <p className='Slide-Title-Desc text-center'>
                       The desktop app ties directly into the 3Speak back up file storage network and provides maximum censorship resistance for our users.
-                      If the 3Speak desktop platform is compromised everything will survive on the 3Speak desktop app and back up network.
+                      If the 3Speak desktop platform is compromised, everything will survive on the 3Speak desktop app and back up network.
 
                     </p>
                   </div>

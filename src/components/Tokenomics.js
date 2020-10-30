@@ -41,8 +41,7 @@ export class Tokenomics extends Component {
                     </h6>
                     <p className='tokenomics-desc text-center'>
                       The more of the token your hold / earn, the more your
-                      voice counts in voting that decides decisions on the
-                      platform
+                      voice counts in resolving decisions taken on the platform
                     </p>
                   </div>
                 </div>
@@ -59,8 +58,7 @@ export class Tokenomics extends Component {
                     <p className='tokenomics-desc text-center'>
                       You can tip any piece of content on the network or tip a
                       creator directly with un-censorable currency outside of
-                      the system, so creators cannot be demonetised like they
-                      can be on legacy platforms
+                      the system. Therefore creators cannot be demonetised as they can be on legacy platforms
                     </p>
                   </div>
                 </div>
@@ -95,7 +93,7 @@ export class Tokenomics extends Component {
                       AUTONOMOUS REFERRAL SYSTEM
                     </h6>
                     <p className='tokenomics-desc text-center'>
-                      be rewarded for bringing new users, creators and your
+                      Be rewarded for bringing new users, creators and your
                       community to the network
                     </p>
                   </div>
@@ -130,7 +128,7 @@ export class Tokenomics extends Component {
                     <h6 className='tokenomics-header'>SUBSCRIPTIONS</h6>
                     <p className='tokenomics-desc text-center'>
                       Subscribe to your favourite creators for additional perks
-                      and content (at the creator’s discretion of course
+                      and content (at the creator’s discretion of course)
                     </p>
                   </div>
                 </div>
@@ -149,7 +147,7 @@ export class Tokenomics extends Component {
                     
                     <h6 className='tokenomics-header'>MARKETING</h6>
                     <p className='tokenomics-desc text-center'>
-                      use our marketing system to approach a community and
+                      Use our marketing system to approach a community and
                       market your product / advertisement to them using our
                       tokens
                     </p>

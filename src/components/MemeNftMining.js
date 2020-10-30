@@ -16,8 +16,8 @@ export class MemeNftMining extends Component {
                     <h2 className='Slide-Title'>CREATOR MEME (NFT) MINING</h2>
                     <p className='Slide-Title-Desc text-center'>
                       Make community or content creator Memes into collectables
-                      with NFTs and issue them to the token holders who stake
-                      the most of a communities' or a creator's token Users can
+                      with NFT's and issue them to the token holders who stake
+                      the most of a communities' or a creator's token. Users can
                       earn collectable memes by staking the tokens of a creator
                       or a community
                     </p>
@@ -31,14 +31,27 @@ export class MemeNftMining extends Component {
                       src={NFTMining}
                       alt='Token System'
                       style={{ width: '100%' }}
+                      className='mt-3'
                     />
-                    <hr />
+                    <hr className='mt-2' />
+                    <div className='row' style={{ marginBottom: '8px' }}>
+                      <div className='col-md-12'>
+                        <strong>NOTE:</strong> Staking a creator's token to mine
+                        NFT Memes is the a similar idea to holding a stock and
+                        receiving dividends
+                      </div>
+                      
+                    </div>
                   </div>
                 </ReactWOW>
                 <div className='col-md-5'>
-                  <div className='Sub-Slide-Header' style={{marginTop: '0'}}>
+                  <div className='Sub-Slide-Header' style={{ marginTop: '0' }}>
                     <div className='row'>
                       <div className='col-12'>
+                        <h5>
+                          NFT Memes are like rare, collectable football cards
+                          and can hold significant value
+                        </h5>
                         <div className='row' style={{ marginBottom: '8px' }}>
                           <div className='col-2'>
                             <img
@@ -74,7 +87,7 @@ export class MemeNftMining extends Component {
                           <div className='col-10'>
                             NFT Meme collectables will drive demand for the
                             creator's tokens and create a new value capture
-                            mechanism similar to how stocks capture value for
+                            mechanism, similar to how stocks capture value for
                             investors, except this will be like the stock market
                             for individuals and communities
                           </div>
