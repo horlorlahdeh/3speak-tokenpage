@@ -46,17 +46,19 @@ class DecentralizedStorage extends Component {
         </ReactWOW>
         <div className='container'>
           <ReactWOW animation='slideInUp'>
-            <div className='row entire-row' data-wow-offset='100000' style={{marginBottom: '150px'}}>
+            <div
+              className='row entire-row'
+              data-wow-offset='100000'
+              style={{ marginBottom: '150px' }}
+            >
               <div className='col-md-4'>
                 <div className='own-card text-center'>
                   <div className='own-card-icon'>
-                    <ReactWOW animation='jello'>
-                      <img
-                        className='account-img'
-                        src='https://img.icons8.com/bubbles/100/000000/man-in-red-shirt-messaging.png'
-                        alt='free-speech'
-                      />
-                    </ReactWOW>
+                    <img
+                      className='account-img'
+                      src='https://img.icons8.com/bubbles/100/000000/man-in-red-shirt-messaging.png'
+                      alt='free-speech'
+                    />
                   </div>
                   <div className='own-card-title'>
                     <h4>Community Driven Free Speech</h4>
@@ -154,20 +156,19 @@ class DecentralizedStorage extends Component {
               </div>
             </div>
           </ReactWOW>
-          <ReactWOW animation='shake'>
-            <div className='row entire-row'>
-              <div className='col-md-1'></div>
-              <div className='col-md-10'>
-                <img
-                  src={DecentralizedStorageImage}
-                  alt='DecentralizedStorageImage'
-                  className='section-image'
-                  style={{ width: '100%' }}
-                />
-              </div>
-              <div className='col-md-1'></div>
+
+          <div className='row entire-row'>
+            <div className='col-md-1'></div>
+            <div className='col-md-10'>
+              <img
+                src={DecentralizedStorageImage}
+                alt='DecentralizedStorageImage'
+                className='section-image'
+                style={{ width: '100%' }}
+              />
             </div>
-          </ReactWOW>
+            <div className='col-md-1'></div>
+          </div>
         </div>
       </div>
     );

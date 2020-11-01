@@ -1,6 +1,6 @@
 import React, {Component} from 'react';
 import './assets/styles/Footer.css';
-// import { FooterSpeakLogo } from '../assets/3S_logo.png'
+import HiveLogo from './assets/images/hive-logo.png';
 
 export default class Footer extends Component {
   render() {
@@ -36,7 +36,7 @@ export default class Footer extends Component {
               <h6 className='footer-items-title'>Accepted Payment Methods</h6>
               <ul className='footer-icons' style={{ padding: 0 }}>
                 <li className='icon-item d-flex'>
-                  <img src="https://hive.cdn.3speakcontent.co/hive-branding/logo/png/logo_transparent@1.png" className='hive-footer-icon' alt=""/><a className='footer-links' href="#!">About Us</a>
+                  <img src={HiveLogo} className='hive-footer-icon' alt=""/><a className='footer-links' href="#!">About Us</a>
                 </li>
                 
                 </ul>

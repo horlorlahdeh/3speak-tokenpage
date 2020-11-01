@@ -45,4 +45,8 @@
   .footer-img {
     width: 20%;
   }
+  .footer-links {
+    width: auto;
+    height: auto;
+  }
 }

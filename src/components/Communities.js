@@ -27,12 +27,11 @@ export class Communities extends Component {
               </div>
             </div>
           </div>
-        </ReactWOW>
-        <div className='tokenomics-info'>
-          <div className='container'>
-            <div className='row token-utitlity-row'>
-              <div className='col-md-3'>
-                <ReactWOW animation='flipInX'>
+
+          <div className='tokenomics-info'>
+            <div className='container'>
+              <div className='row token-utitlity-row'>
+                <div className='col-md-3'>
                   <button className='card mobile-margin-auto'>
                     <section className='m-auto'>
                       <img
@@ -45,10 +44,8 @@ export class Communities extends Component {
                       <span className='community-role'>200+ members</span>
                     </section>
                   </button>
-                </ReactWOW>
-              </div>
-              <div className='col-md-3'>
-                <ReactWOW animation='flipInX'>
+                </div>
+                <div className='col-md-3'>
                   <button className='card mobile-margin-auto'>
                     <section className='m-auto'>
                       <img
@@ -61,10 +58,8 @@ export class Communities extends Component {
                       <span className='community-role'>200+ members</span>
                     </section>
                   </button>
-                </ReactWOW>
-              </div>
-              <div className='col-md-3'>
-                <ReactWOW animation='flipInX'>
+                </div>
+                <div className='col-md-3'>
                   <button className='card mobile-margin-auto'>
                     <section className='m-auto'>
                       <img
@@ -77,10 +72,8 @@ export class Communities extends Component {
                       <span className='community-role'>200+ members</span>
                     </section>
                   </button>
-                </ReactWOW>
-              </div>
-              <div className='col-md-3'>
-                <ReactWOW animation='flipInX'>
+                </div>
+                <div className='col-md-3'>
                   <button className='card mobile-margin-auto'>
                     <section className='m-auto'>
                       <img
@@ -93,10 +86,8 @@ export class Communities extends Component {
                       <span className='community-role'>200+ members</span>
                     </section>
                   </button>
-                </ReactWOW>
-              </div>
-              <div className='col-md-3'>
-                <ReactWOW animation='flipInX'>
+                </div>
+                <div className='col-md-3'>
                   <button className='card mobile-margin-auto'>
                     <section className='m-auto'>
                       <img
@@ -109,10 +100,8 @@ export class Communities extends Component {
                       <span className='community-role'>200+ members</span>
                     </section>
                   </button>
-                </ReactWOW>
-              </div>
-              <div className='col-md-3'>
-                <ReactWOW animation='flipInX'>
+                </div>
+                <div className='col-md-3'>
                   <button className='card mobile-margin-auto'>
                     <section className='m-auto'>
                       <img
@@ -125,10 +114,8 @@ export class Communities extends Component {
                       <span className='community-role'>200+ members</span>
                     </section>
                   </button>
-                </ReactWOW>
-              </div>
-              <div className='col-md-3'>
-                <ReactWOW animation='flipInX'>
+                </div>
+                <div className='col-md-3'>
                   <button className='card mobile-margin-auto'>
                     <section className='m-auto'>
                       <img
@@ -141,10 +128,8 @@ export class Communities extends Component {
                       <span className='community-role'>200+ members</span>
                     </section>
                   </button>
-                </ReactWOW>
-              </div>
-              <div className='col-md-3'>
-                <ReactWOW animation='flipInX'>
+                </div>
+                <div className='col-md-3'>
                   <button className='card mobile-margin-auto'>
                     <section className='m-auto'>
                       <img
@@ -157,11 +142,11 @@ export class Communities extends Component {
                       <span className='community-role'>200+ members</span>
                     </section>
                   </button>
-                </ReactWOW>
+                </div>
               </div>
             </div>
           </div>
-        </div>
+        </ReactWOW>
       </div>
     );
   }
