@@ -45,8 +45,8 @@
   .footer-img {
     width: 20%;
   }
-  .footer-links-img {
-    max-width: 100px!important;
+  .hive-footer-icon {
+    max-width: 55px!important;
     max-height: 48px!important;
     object-fit: scale-down;
   }

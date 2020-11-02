@@ -35,8 +35,8 @@ export default class Footer extends Component {
             <div className='col-md-3 col-sm-12 col-xs-1-12'>
               <h6 className='footer-items-title'>Accepted Payment Methods</h6>
               <ul className='footer-icons' style={{ padding: 0 }}>
-                <li className='icon-item d-flex w-100'>
-                  <img src={HiveLogo} className='hive-footer-icon' alt=""/><a className='footer-links-img' href="#!">About Us</a>
+                <li className='icon-item w-100'>
+                  <img src={HiveLogo} className='hive-footer-icon' alt=""/><a className='footer-links' href="#!">Pay with Hive</a>
                 </li>
                 
                 </ul>
