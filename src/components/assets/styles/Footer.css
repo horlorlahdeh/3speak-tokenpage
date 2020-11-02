@@ -46,7 +46,7 @@
     width: 20%;
   }
   .footer-links-img {
-    width: 55px;
-    height: 48px;
+    max-width: 55px!important;
+    max-height: 48px!important;
   }
 }
