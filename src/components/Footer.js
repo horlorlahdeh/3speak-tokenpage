@@ -1,6 +1,6 @@
 import React, {Component} from 'react';
 import './assets/styles/Footer.css';
-import HiveLogo from './assets/images/hive-logo.png';
+import HiveLogo from './assets/images/hive-logo-sm.png';
 
 export default class Footer extends Component {
   render() {
