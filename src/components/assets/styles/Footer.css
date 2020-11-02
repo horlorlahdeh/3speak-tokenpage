@@ -48,5 +48,6 @@
   .footer-links-img {
     max-width: 55px!important;
     max-height: 48px!important;
+    object-fit: scale-down;
   }
 }
