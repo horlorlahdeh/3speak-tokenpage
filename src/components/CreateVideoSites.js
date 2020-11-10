@@ -1,7 +1,4 @@
 import React, { Component } from 'react';
-// import ReactDOM from 'react-dom';
-import ReactWOW from 'react-wow';
-// import Slider from 'react-slick';
 import 'slick-carousel/slick/slick.css';
 import 'slick-carousel/slick/slick-theme.css';
 import './assets/styles/SlideTwo.css';
@@ -21,7 +18,7 @@ export class Features extends Component {
 
     return (
       <div className='Slide-Two-Wrapper'>
-        <ReactWOW animation='slideInLeft'>
+        
           <section className='SlideTwo'>
             <div className='container'>
               <div className='row'>
@@ -185,7 +182,7 @@ export class Features extends Component {
               </div>
             </div>
           </div>
-        </ReactWOW>
+       
       </div>
     );
   }

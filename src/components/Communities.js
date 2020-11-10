@@ -32,7 +32,7 @@ export class Communities extends Component {
             <div className='container'>
               <div className='row token-utitlity-row'>
                 <div className='col-md-3'>
-                  <button className='card mobile-margin-auto'>
+                  <div className='card mobile-margin-auto'>
                     <section className='m-auto'>
                       <img
                         className='avatar'
@@ -43,10 +43,10 @@ export class Communities extends Component {
                       <h3 className='community-name'>GEM</h3>
                       <span className='community-role'>200+ members</span>
                     </section>
-                  </button>
+                  </div>
                 </div>
                 <div className='col-md-3'>
-                  <button className='card mobile-margin-auto'>
+                  <div className='card mobile-margin-auto'>
                     <section className='m-auto'>
                       <img
                         className='avatar'
@@ -57,10 +57,10 @@ export class Communities extends Component {
                       <h3 className='community-name'>LeoFinance</h3>
                       <span className='community-role'>200+ members</span>
                     </section>
-                  </button>
+                  </div>
                 </div>
                 <div className='col-md-3'>
-                  <button className='card mobile-margin-auto'>
+                  <div className='card mobile-margin-auto'>
                     <section className='m-auto'>
                       <img
                         className='avatar'
@@ -71,10 +71,10 @@ export class Communities extends Component {
                       <h3 className='community-name'>Hive Gaming</h3>
                       <span className='community-role'>200+ members</span>
                     </section>
-                  </button>
+                  </div>
                 </div>
                 <div className='col-md-3'>
-                  <button className='card mobile-margin-auto'>
+                  <div className='card mobile-margin-auto'>
                     <section className='m-auto'>
                       <img
                         className='avatar'
@@ -85,10 +85,10 @@ export class Communities extends Component {
                       <h3 className='community-name'>OnChainArt</h3>
                       <span className='community-role'>200+ members</span>
                     </section>
-                  </button>
+                  </div>
                 </div>
                 <div className='col-md-3'>
-                  <button className='card mobile-margin-auto'>
+                  <div className='card mobile-margin-auto'>
                     <section className='m-auto'>
                       <img
                         className='avatar'
@@ -99,10 +99,10 @@ export class Communities extends Component {
                       <h3 className='community-name'>Hive CN</h3>
                       <span className='community-role'>200+ members</span>
                     </section>
-                  </button>
+                  </div>
                 </div>
                 <div className='col-md-3'>
-                  <button className='card mobile-margin-auto'>
+                  <div className='card mobile-margin-auto'>
                     <section className='m-auto'>
                       <img
                         className='avatar'
@@ -113,10 +113,10 @@ export class Communities extends Component {
                       <h3 className='community-name'>PowerHouseCreatives</h3>
                       <span className='community-role'>200+ members</span>
                     </section>
-                  </button>
+                  </div>
                 </div>
                 <div className='col-md-3'>
-                  <button className='card mobile-margin-auto'>
+                  <div className='card mobile-margin-auto'>
                     <section className='m-auto'>
                       <img
                         className='avatar'
@@ -127,10 +127,10 @@ export class Communities extends Component {
                       <h3 className='community-name'>Threespeak</h3>
                       <span className='community-role'>200+ members</span>
                     </section>
-                  </button>
+                  </div>
                 </div>
                 <div className='col-md-3'>
-                  <button className='card mobile-margin-auto'>
+                  <div className='card mobile-margin-auto'>
                     <section className='m-auto'>
                       <img
                         className='avatar'
@@ -141,7 +141,7 @@ export class Communities extends Component {
                       <h3 className='community-name'>Deep Dives</h3>
                       <span className='community-role'>200+ members</span>
                     </section>
-                  </button>
+                  </div>
                 </div>
               </div>
             </div>
