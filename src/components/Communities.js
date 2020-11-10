@@ -32,7 +32,7 @@ export class Communities extends Component {
             <div className='container'>
               <div className='row token-utitlity-row'>
                 <div className='col-md-3'>
-                  <div className='card mobile-margin-auto'>
+                  <div className='card mobile-margin-auto text-center center'>
                     <section className='m-auto'>
                       <img
                         className='avatar'
