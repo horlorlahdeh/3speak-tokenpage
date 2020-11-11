@@ -20,7 +20,7 @@ class DecentralizedStorage extends Component {
   }
   render() {
     return (
-      <div className='WebVersion-Wrapper Top-Div' style={{ marginTop: 90 }}>
+      <div className='WebVersion-Wrapper Top-Div' style={{ marginTop: 5 }}>
         <div className='bg-div'></div>
         <div className='bg-div2'></div>
         

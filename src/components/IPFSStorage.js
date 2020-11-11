@@ -1,12 +1,12 @@
 import React, { Component } from 'react';
 import ReactWOW from 'react-wow';
 import IPFSImage from './assets/images/ipfs_image.png';
-import './assets/styles/Influencers.css';
+import './assets/styles/TokenStaking.css';
 
 export class IPFSStorage extends Component {
   render() {
     return (
-      <div className='Top-Div' style={{ marginTop: 90 }}>
+      <div className='Top-Div' style={{ marginTop: 10 }}>
         
           <section className='SlideTwo'>
             <div className='container'>

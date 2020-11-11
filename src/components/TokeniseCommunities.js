@@ -1,12 +1,12 @@
 import React, { Component } from 'react';
 import ReactWOW from 'react-wow';
 import TokenSystem from './assets/images/token_system.png';
-import './assets/styles/Influencers.css';
+import './assets/styles/TokenStaking.css';
 
 export class TokeniseCommunities extends Component {
   render() {
     return (
-      <div className='Top-Div' style={{ marginTop: 90 }}>
+      <div className='Top-Div'>
         
           <section className='SlideTwo'>
             <div className='container'>

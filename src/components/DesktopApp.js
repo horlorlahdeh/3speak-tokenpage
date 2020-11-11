@@ -1,12 +1,12 @@
 import React, { Component } from 'react';
 import ReactWOW from 'react-wow';
 import DesktopAppImage from './assets/images/desktop_app.png';
-import './assets/styles/Influencers.css';
+import './assets/styles/TokenStaking.css';
 
 export class DesktopApp extends Component {
   render() {
     return (
-      <div className='Top-Div' style={{ marginTop: 90 }}>
+      <div className='Top-Div' style={{ marginTop: 5 }}>
         
           <section className='SlideTwo'>
             <div className='container'>

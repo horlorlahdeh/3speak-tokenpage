@@ -1,12 +1,12 @@
 import React, { Component } from 'react';
 import ReactWOW from 'react-wow';
 import NFTMining from './assets/images/nft_mining.png';
-import './assets/styles/Influencers.css';
+import './assets/styles/TokenStaking.css';
 
 export class MemeNftMining extends Component {
   render() {
     return (
-      <div className='Top-Div' style={{ marginTop: 90 }}>
+      <div className='Top-Div' style={{ marginTop: 5 }}>
         
           <section className='SlideTwo'>
             <div className='container'>

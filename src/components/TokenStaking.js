@@ -1,12 +1,12 @@
 import React, { Component } from 'react';
 import ReactWOW from 'react-wow';
 import TokenSystem from './assets/images/token_system.png';
-import './assets/styles/Influencers.css';
+import './assets/styles/TokenStaking.css';
 
 export class TokenStaking extends Component {
   render() {
     return (
-      <div className='Top-Div' style={{ marginTop: 90 }}>
+      <div className='Top-Div' style={{ marginTop: 5 }}>
         <ReactWOW animation='slideInLeft'>
           <section className='SlideTwo'>
             <div className='container'>
@@ -34,7 +34,7 @@ export class TokenStaking extends Component {
                
                 <div className='col-md-5'>
                   <div className='Sub-Slide-Header' style={{marginTop: '0'}}>
-                    <h3 className='Tokenise-Title'>
+                    <h3 className='Token-Staking'>
                       The following users will need to stake tokens in order to
                       take part in the network:{' '}
                     </h3>
