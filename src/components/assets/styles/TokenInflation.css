@@ -30,7 +30,7 @@
   color: #fff !important;
 }
 .own-card-title {
-  margin-bottom: 20px;
+  margin-bottom: 5px;
 }
 .own-card-title h4 {
   font-size: 18px;
@@ -44,6 +44,9 @@
     .tokenomics-ward {
       margin-bottom: 10px;
     }
+    .own-card {
+      margin-bottom: 20px;
+    }
     .own-card-icon {
       display: flex;
       align-items: center;
@@ -55,6 +58,7 @@
       align-items: center;
       justify-content: center;
       width: 100%;
+      margin-bottom: 5px;
     }
     .own-card-title h4 {
       text-align: center;
