@@ -7,8 +7,8 @@ import './assets/styles/SlideThree.css';
 export class Tokenomics extends Component {
   render() {
     return (
-      <div className='Slide-Three-Wrapper Top-Div'>
-        <ReactWOW animation='slideInLeft'>
+      <ReactWOW animation='slideInLeft'>
+        <div className='Slide-Three-Wrapper Top-Div'>
           <div className='SlideTwo'>
             <div className='container'>
               <div className='row'>
@@ -24,11 +24,10 @@ export class Tokenomics extends Component {
               </div>
             </div>
           </div>
-        </ReactWOW>
-        <div className='tokenomics-info'>
-          <div className='container'>
-            <div className='row token-utitlity-row'>
-              <ReactWOW animation='flipInX'>
+
+          <div className='tokenomics-info'>
+            <div className='container'>
+              <div className='row token-utitlity-row'>
                 <div className='col-md-4 tokenomics-card-wait'>
                   <div className='tokenomics-card text-center'>
                     <img
@@ -45,8 +44,7 @@ export class Tokenomics extends Component {
                     </p>
                   </div>
                 </div>
-              </ReactWOW>
-              <ReactWOW animation='flipInX'>
+
                 <div className='col-md-4 tokenomics-card-wait'>
                   <div className='tokenomics-card text-center'>
                     <img
@@ -58,12 +56,12 @@ export class Tokenomics extends Component {
                     <p className='tokenomics-desc text-center'>
                       You can tip any piece of content on the network or tip a
                       creator directly with un-censorable currency outside of
-                      the system. Therefore creators cannot be demonetised as they can be on legacy platforms
+                      the system. Therefore creators cannot be demonetised as
+                      they can be on legacy platforms
                     </p>
                   </div>
                 </div>
-              </ReactWOW>
-              <ReactWOW animation='flipInX'>
+
                 <div className='col-md-4 tokenomics-card-wait'>
                   <div className='tokenomics-card text-center'>
                     <img
@@ -78,10 +76,8 @@ export class Tokenomics extends Component {
                     </p>
                   </div>
                 </div>
-              </ReactWOW>
-            </div>
-            <div className='row token-utitlity-row'>
-              <ReactWOW animation='flipInX'>
+              </div>
+              <div className='row token-utitlity-row'>
                 <div className='col-md-4 tokenomics-card-wait'>
                   <div className='tokenomics-card text-center'>
                     <img
@@ -98,8 +94,7 @@ export class Tokenomics extends Component {
                     </p>
                   </div>
                 </div>
-              </ReactWOW>
-              <ReactWOW animation='flipInX'>
+
                 <div className='col-md-4 tokenomics-card-wait'>
                   <div className='tokenomics-card text-center'>
                     <img
@@ -107,7 +102,7 @@ export class Tokenomics extends Component {
                       src='https://img.icons8.com/color/96/000000/matches.png'
                       alt='Burn Token'
                     />
-                   
+
                     <h6 className='tokenomics-header'>SPEND/BURN TOKENS</h6>
                     <p className='tokenomics-desc text-center'>
                       Burn tokens on the network to get your content to feature
@@ -116,8 +111,7 @@ export class Tokenomics extends Component {
                     </p>
                   </div>
                 </div>
-              </ReactWOW>
-              <ReactWOW animation='flipInX'>
+
                 <div className='col-md-4 tokenomics-card-wait'>
                   <div className='tokenomics-card text-center'>
                     <img
@@ -132,11 +126,10 @@ export class Tokenomics extends Component {
                     </p>
                   </div>
                 </div>
-              </ReactWOW>
-            </div>
-            <div className='row token-utility-row'>
-              <div className="col-md-2 hide-sm"></div>
-              <ReactWOW animation='flipInX'>
+              </div>
+              <div className='row token-utility-row'>
+                <div className='col-md-2 hide-sm'></div>
+
                 <div className='col-md-4 tokenomics-card-wait'>
                   <div className='tokenomics-card text-center'>
                     <img
@@ -144,7 +137,7 @@ export class Tokenomics extends Component {
                       src='https://img.icons8.com/color/96/000000/commercial.png'
                       alt='Money'
                     />
-                    
+
                     <h6 className='tokenomics-header'>MARKETING</h6>
                     <p className='tokenomics-desc text-center'>
                       Use our marketing system to approach a community and
@@ -153,8 +146,7 @@ export class Tokenomics extends Component {
                     </p>
                   </div>
                 </div>
-              </ReactWOW>
-              <ReactWOW animation='flipInX'>
+
                 <div className='col-md-4 tokenomics-card-wait'>
                   <div className='tokenomics-card text-center'>
                     <img
@@ -162,7 +154,7 @@ export class Tokenomics extends Component {
                       src='https://img.icons8.com/color/96/000000/communication.png'
                       alt='Money'
                     />
-                    
+
                     <h6 className='tokenomics-header'>SUPER CHATS</h6>
                     <p className='tokenomics-desc text-center'>
                       Enjoy Super Chat made availalbe on live streams. An avenue
@@ -170,12 +162,13 @@ export class Tokenomics extends Component {
                     </p>
                   </div>
                 </div>
-              </ReactWOW>
-              <div className="col-md-2 hide-sm"></div>
+
+                <div className='col-md-2 hide-sm'></div>
+              </div>
             </div>
           </div>
         </div>
-      </div>
+      </ReactWOW>
     );
   }
 }

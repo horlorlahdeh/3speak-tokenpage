@@ -58,7 +58,7 @@ iframe {
   /* min-height: 100%; */
   padding: 15px;
 
-  background: #ed1c230e;
+  background: transparent;
   /* background: -webkit-linear-gradient(left, #ED1C24, #ED1C24);
   background: -o-linear-gradient(left, #ED1C24, #ED1C24);
   background: -moz-linear-gradient(left, #0072ff, #00c6ff);
