@@ -44,4 +44,22 @@
     .tokenomics-ward {
       margin-bottom: 10px;
     }
+    .own-card-icon {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      width: 100%;
+    }
+    .own-card-title {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      width: 100%;
+    }
+    .own-card-title h4 {
+      text-align: center;
+    }
+    .token-inflation-card-body {
+      text-align: center;
+    }
 }

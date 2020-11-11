@@ -83,4 +83,7 @@
     margin-bottom: 50px;
     margin-top: 0;
   }
+  .input1 {
+    border-radius: 0!important;
+  }
 }

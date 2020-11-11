@@ -26,7 +26,7 @@ class TokenInflation extends Component {
           </section>
        
         <div className='container'>
-          <ReactWOW animation='slideInUp'>
+         
             <div className='row entire-row' data-wow-offset='100000'>
               <div className='col-md-3'>
                 <div className='token-inflation-card own-card'>
@@ -121,7 +121,7 @@ class TokenInflation extends Component {
                 </div>
               </div>
             </div>
-          </ReactWOW>
+          
         </div>
       </div>
     );

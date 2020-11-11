@@ -53,6 +53,7 @@
 @media (max-width: 768px) {
   .mobile-margin-auto {
 	  margin: 3px auto!important;
-	  
+	  width: 80%!important;
+	  margin-bottom: 12px!important;
   }
 }

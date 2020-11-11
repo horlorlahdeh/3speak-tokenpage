@@ -21,7 +21,7 @@ export class Features extends Component {
 
     return (
       <div className='Slide-Two-Wrapper'>
-        <ReactWOW animation='slideInLeft'>
+       
           <section className='SlideTwo'>
             <div className='container'>
               <div className='row'>
@@ -38,7 +38,7 @@ export class Features extends Component {
               </div>
             </div>
           </section>
-        </ReactWOW>
+       
         <div className='container'>
           <div className='row'>
             <div className='col-md-12'>

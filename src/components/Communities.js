@@ -8,7 +8,7 @@ export class Communities extends Component {
   render() {
     return (
       <div className='Slide-Three-Wrapper Top-Div'>
-        <ReactWOW animation='slideInLeft'>
+        
           <div className='SlideTwo'>
             <div className='container'>
               <div className='row'>
@@ -146,7 +146,7 @@ export class Communities extends Component {
               </div>
             </div>
           </div>
-        </ReactWOW>
+        
       </div>
     );
   }
