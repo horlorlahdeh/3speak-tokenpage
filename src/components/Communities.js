@@ -1,7 +1,4 @@
 import React, { Component } from 'react';
-// import ReactDOM from "react-dom";
-import ReactWOW from 'react-wow';
-// import Airdrop from './assets/images/parachute.png';
 import './assets/styles/Communities.css';
 
 export class Communities extends Component {

@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
 // import ReactDOM from 'react-dom';
-import ReactWOW from 'react-wow';
 import './assets/styles/TokenInflation.css';
 
 class TokenInflation extends Component {

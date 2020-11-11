@@ -1,7 +1,4 @@
 import React, { Component } from 'react';
-// import ReactDOM from 'react-dom';
-import ReactWOW from 'react-wow';
-// import Slider from 'react-slick';
 import 'slick-carousel/slick/slick.css';
 import 'slick-carousel/slick/slick-theme.css';
 import './assets/styles/SlideTwo.css';
