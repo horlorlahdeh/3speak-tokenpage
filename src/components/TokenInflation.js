@@ -9,7 +9,7 @@ class TokenInflation extends Component {
       <div className='WebVersion-Wrapper'>
         <div className='bg-div'></div>
         <div className='bg-div2'></div>
-        <ReactWOW animation='slideInLeft'>
+        
           <section className='WebVersion'>
             <div className='container'>
               <div className='row'>
@@ -24,20 +24,20 @@ class TokenInflation extends Component {
               </div>
             </div>
           </section>
-        </ReactWOW>
+       
         <div className='container'>
           <ReactWOW animation='slideInUp'>
             <div className='row entire-row' data-wow-offset='100000'>
               <div className='col-md-3'>
                 <div className='token-inflation-card own-card'>
                   <div className='own-card-icon'>
-                    <ReactWOW animation='jello'>
+                    
                       <img
                         className='account-img'
                         src='https://img.icons8.com/bubbles/100/000000/stack.png'
                         alt='Account Icon'
                       />
-                    </ReactWOW>
+                   
                   </div>
                   <div className='own-card-title'>
                     <h4>Video Storage Nodes</h4>
@@ -54,13 +54,13 @@ class TokenInflation extends Component {
               <div className='col-md-3'>
                 <div className='token-inflation-card token-inflation-card-2 own-card'>
                   <div className='own-card-icon'>
-                    <ReactWOW animation='pulse'>
+                    
                       <img
                         className='community-img'
                         src='https://img.icons8.com/bubbles/100/000000/api.png'
                         alt='Community Icon'
                       />
-                    </ReactWOW>
+                   
                   </div>
                   <div className='own-card-title'>
                     <h4>Independent Video Platforms</h4>
@@ -76,14 +76,14 @@ class TokenInflation extends Component {
               <div className='col-md-3'>
                 <div className='token-inflation-card token-inflation-card-3 own-card'>
                   <div className='own-card-icon'>
-                    <ReactWOW animation='jello'>
+                   
                       <img
                         className='assets-img'
                         width='100'
                         src='https://img.icons8.com/bubbles/100/000000/safe.png'
                         alt='Digital Assets'
                       />
-                    </ReactWOW>
+                    
                   </div>
                   <div className='own-card-title'>
                     <h4>Individual Local Storage</h4>
@@ -99,14 +99,14 @@ class TokenInflation extends Component {
               <div className='col-md-3'>
                 <div className='token-inflation-card token-inflation-card-4 own-card'>
                   <div className='own-card-icon'>
-                    <ReactWOW animation='jello'>
+                    
                       <img
                         className='assets-img'
                         width='100'
                         src='https://img.icons8.com/bubbles/100/000000/gift.png'
                         alt='Digital Assets'
                       />
-                    </ReactWOW>
+                   
                   </div>
                   <div className='own-card-title'>
                     <h4>Bonus System</h4>

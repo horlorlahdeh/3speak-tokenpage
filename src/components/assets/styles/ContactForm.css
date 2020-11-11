@@ -79,4 +79,8 @@
   .container-contact1 {
 	  width: 100%!important;
   }
+  .Slide-Header {
+    margin-bottom: 50px;
+    margin-top: 0;
+  }
 }

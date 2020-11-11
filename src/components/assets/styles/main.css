@@ -150,7 +150,6 @@ textarea.input1 + .shadow-input1 {
   display: block;
   width: 100%;
   background: #e6e6e6;
-  font-family: Montserrat-Bold;
   font-size: 15px;
   line-height: 1.5;
   color: #666666;
@@ -204,7 +203,6 @@ textarea.input1 + .shadow-input1 {
   height: 50px;
   /* border-radius: 25px; */
   background: #220202;
-  font-family: Montserrat-Bold;
   font-size: 15px;
   line-height: 1.5;
   color: #fff;
@@ -291,7 +289,7 @@ textarea.input1 + .shadow-input1 {
 
 @media (max-width: 576px) {
   .container-contact1 {
-    padding: 90px 15px 88px 15px;
+    padding: 30px 15px 30px 15px;
     width: 100%;
   }
 }

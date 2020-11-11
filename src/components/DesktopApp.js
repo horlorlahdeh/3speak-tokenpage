@@ -7,7 +7,7 @@ export class DesktopApp extends Component {
   render() {
     return (
       <div className='Top-Div' style={{ marginTop: 90 }}>
-        <ReactWOW animation='slideInLeft'>
+        
           <section className='SlideTwo'>
             <div className='container'>
               <div className='row'>
@@ -35,7 +35,7 @@ export class DesktopApp extends Component {
                 </div>
             </div>
           </section>
-        </ReactWOW>
+       
       </div>
     );
   }

@@ -31,7 +31,7 @@ export class SlideOne extends Component {
             </div>
           </section>
         </ReactWOW>
-        <ReactWOW animation="slideInLeft">
+        
           <div className='choose-us-wrapper'>
             <div className='container'>
               <div className='row' data-wow-offset='100000'>
@@ -122,7 +122,7 @@ export class SlideOne extends Component {
               </div>
             </div>
           </div>
-        </ReactWOW>
+        
       </div>
     );
   }

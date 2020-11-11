@@ -46,7 +46,7 @@ export class Communities extends Component {
                   </div>
                 </div>
                 <div className='col-md-3'>
-                  <div className='card mobile-margin-auto'>
+                  <div className='card mobile-margin-auto text-center center'>
                     <section className='m-auto'>
                       <img
                         className='avatar'
@@ -60,7 +60,7 @@ export class Communities extends Component {
                   </div>
                 </div>
                 <div className='col-md-3'>
-                  <div className='card mobile-margin-auto'>
+                  <div className='card mobile-margin-auto text-center center'>
                     <section className='m-auto'>
                       <img
                         className='avatar'
@@ -74,7 +74,7 @@ export class Communities extends Component {
                   </div>
                 </div>
                 <div className='col-md-3'>
-                  <div className='card mobile-margin-auto'>
+                  <div className='card mobile-margin-auto text-center center'>
                     <section className='m-auto'>
                       <img
                         className='avatar'
@@ -88,7 +88,7 @@ export class Communities extends Component {
                   </div>
                 </div>
                 <div className='col-md-3'>
-                  <div className='card mobile-margin-auto'>
+                  <div className='card mobile-margin-auto text-center center'>
                     <section className='m-auto'>
                       <img
                         className='avatar'
@@ -102,7 +102,7 @@ export class Communities extends Component {
                   </div>
                 </div>
                 <div className='col-md-3'>
-                  <div className='card mobile-margin-auto'>
+                  <div className='card mobile-margin-auto text-center center'>
                     <section className='m-auto'>
                       <img
                         className='avatar'
@@ -116,7 +116,7 @@ export class Communities extends Component {
                   </div>
                 </div>
                 <div className='col-md-3'>
-                  <div className='card mobile-margin-auto'>
+                  <div className='card mobile-margin-auto text-center center'>
                     <section className='m-auto'>
                       <img
                         className='avatar'
@@ -130,7 +130,7 @@ export class Communities extends Component {
                   </div>
                 </div>
                 <div className='col-md-3'>
-                  <div className='card mobile-margin-auto'>
+                  <div className='card mobile-margin-auto text-center center'>
                     <section className='m-auto'>
                       <img
                         className='avatar'

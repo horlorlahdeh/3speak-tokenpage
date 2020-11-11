@@ -21,6 +21,7 @@ export default class BuiltWithHive extends Component {
                         className='hive-logo-section'
                         alt='hive logo'
                         src={HiveLogo}
+                        style={{marginBottom: '22px'}}
                       />
                     </div>
                   </div>
