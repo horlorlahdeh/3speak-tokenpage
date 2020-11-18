@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import ReactWOW from 'react-wow';
+// import ReactWOW from 'react-wow';
 import DesktopAppImage from './assets/images/desktop_app.png';
 import './assets/styles/TokenStaking.css';
 
@@ -23,7 +23,7 @@ export class DesktopApp extends Component {
                 </div>
               </div>
               <div className='row'>
-                <ReactWOW animation='flipInX'>
+                
                   <div className='col-md-10 offset-1'>
                     <img
                       src={DesktopAppImage}
@@ -31,7 +31,7 @@ export class DesktopApp extends Component {
                       style={{ width: '100%' }}
                     />
                   </div>
-                </ReactWOW>
+               
                 </div>
             </div>
           </section>

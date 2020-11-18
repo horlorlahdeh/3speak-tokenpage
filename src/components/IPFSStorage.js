@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import ReactWOW from 'react-wow';
+// import ReactWOW from 'react-wow';
 import IPFSImage from './assets/images/ipfs_image.png';
 import './assets/styles/TokenStaking.css';
 
@@ -21,7 +21,7 @@ export class IPFSStorage extends Component {
                 </div>
               </div>
               <div className='row'>
-                <ReactWOW animation='flipInX'>
+                
                   <div className='col-md-10 offset-1'>
                     <img
                       src={IPFSImage}
@@ -29,7 +29,7 @@ export class IPFSStorage extends Component {
                       style={{ width: '100%' }}
                     />
                   </div>
-                </ReactWOW>
+               
                 </div>
             </div>
           </section>

@@ -39,10 +39,7 @@ export default class BuiltWithHive extends Component {
                         <div className='col-md-6'>
                           <div className='hive-feature-card'>
                             <li className='each-hive-feature'>
-                              <img
-                                alt='Features'
-                                src='https://img.icons8.com/material-rounded/12/000000/horizontal-line.png'
-                              />{' '}
+                              
                               Fast Transactions
                             </li>
                           </div>
@@ -50,10 +47,7 @@ export default class BuiltWithHive extends Component {
                         <div className='col-md-6'>
                           <div className='hive-feature-card'>
                             <li className='each-hive-feature'>
-                              <img
-                                alt='Features'
-                                src='https://img.icons8.com/material-rounded/12/000000/horizontal-line.png'
-                              />{' '}
+                              
                               Free Transactions
                             </li>
                           </div>
@@ -61,10 +55,7 @@ export default class BuiltWithHive extends Component {
                         <div className='col-md-6'>
                           <div className='hive-feature-card'>
                             <li className='each-hive-feature'>
-                              <img
-                                alt='Features'
-                                src='https://img.icons8.com/material-rounded/12/000000/horizontal-line.png'
-                              />{' '}
+                              
                               Smart Media Tokens
                             </li>
                           </div>
@@ -72,10 +63,7 @@ export default class BuiltWithHive extends Component {
                         <div className='col-md-6'>
                           <div className='hive-feature-card'>
                             <li className='each-hive-feature'>
-                              <img
-                                alt='Features'
-                                src='https://img.icons8.com/material-rounded/12/000000/horizontal-line.png'
-                              />{' '}
+                              
                               Decentralised
                             </li>
                           </div>
@@ -83,10 +71,7 @@ export default class BuiltWithHive extends Component {
                         <div className='col-md-6'>
                           <div className='hive-feature-card'>
                             <li className='each-hive-feature'>
-                              <img
-                                alt='Features'
-                                src='https://img.icons8.com/material-rounded/12/000000/horizontal-line.png'
-                              />{' '}
+                              
                               Free Speech
                             </li>
                           </div>
