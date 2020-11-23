@@ -7,10 +7,10 @@ import './assets/styles/util.css';
 class ContactForm extends Component {
   render() {
     return (
-      <div>
+      <div className='contact-wrapper'>
         <div className='contact1'>
           <div className="Slide-Header" style={{ marginTop: '50px' }}>
-          <h2 className='Slide-Title'>Get in touch</h2>
+          <h2 className='Slide-Title' style={{color: '#fff'}}>Get in touch</h2>
         </div>
           <div className='container-contact1 justify-content-center'>
             {/* <div className='contact1-pic js-tilt' data-tilt>
